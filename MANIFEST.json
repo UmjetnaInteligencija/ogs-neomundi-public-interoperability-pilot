@@ -1,0 +1,199 @@
+{
+  "artifact_count": 37,
+  "branding_status": {
+    "judicator": "canonical approved asset installed",
+    "neomundi": "approved asset installed",
+    "placeholders_remaining": false
+  },
+  "evidence_class": "synthetic_internally_verified_not_independently_reproduced",
+  "files": [
+    {
+      "bytes": 350,
+      "path": "CONTRIBUTING.md",
+      "sha256": "9b384f60c181290090884baaebc9a13a1714ca36020cfa4ecc577047820547e1"
+    },
+    {
+      "bytes": 776,
+      "path": "LICENSE.md",
+      "sha256": "72608c5e6528860eaba354fa28f117799aec5833f4b4c966cf5f2418bf47d542"
+    },
+    {
+      "bytes": 351,
+      "path": "NOTICE.md",
+      "sha256": "63a286bea72ed1b947ab65c61e54a6fc8c059fbc9e64cc1cd4687da16a5e8327"
+    },
+    {
+      "bytes": 2134,
+      "path": "README.md",
+      "sha256": "291881e333d4093da68d838229c9a5cd47ecac89a0626def88330a64d876023c"
+    },
+    {
+      "bytes": 363,
+      "path": "assets/ASSETS_REQUIRED.md",
+      "sha256": "f00ac4adda9de551097d125417a364f2528599054ddf1c8c5980ffd859e528fe"
+    },
+    {
+      "bytes": 123,
+      "path": "assets/joint_attribution.txt",
+      "sha256": "4276533dd25393fb6e5d939089e227f3de592733d6ff60c3ec03ad4ad0dca5f8"
+    },
+    {
+      "bytes": 489738,
+      "path": "assets/neomundi_logo.png",
+      "sha256": "85a19bbf836c6729236458c5549f1015994ece53bac0e9d7aa5aade0b9dc9bd0"
+    },
+    {
+      "bytes": 276113,
+      "path": "assets/ogs_or_judicator_logo.png",
+      "sha256": "8ebe715d40320faa34d893a2de45998bab2da992442366b45576c63bbf762646"
+    },
+    {
+      "bytes": 18267,
+      "path": "diagrams/ogs_neomundi_architecture.png",
+      "sha256": "8b40301125f1c00b34133728a87424df416f9bdd1ab94ec507eca2c34637859e"
+    },
+    {
+      "bytes": 2328,
+      "path": "diagrams/ogs_neomundi_architecture.svg",
+      "sha256": "4b951a3060d637621e32b2e997fd1caaaddb14e29830fc1a7f9d0dd0db10a63c"
+    },
+    {
+      "bytes": 654,
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "9214b55b1b105bc58959f225c3b8efbc257ca6e134b91e2bf0981172fd9bd7c3"
+    },
+    {
+      "bytes": 833,
+      "path": "docs/CLAIM_BOUNDARY.md",
+      "sha256": "1813396780ebe1fcb415d7ddbc08499bdd34b504b20ca76b66fe9e25a199b906"
+    },
+    {
+      "bytes": 631,
+      "path": "docs/EVIDENCE_SUMMARY.md",
+      "sha256": "6fa056cc1cd7d948658ac50a79f0801b176651fba3a60e7389214f8de0feac6c"
+    },
+    {
+      "bytes": 404,
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "69bdddf2d1893fb034fbe41723feb746b30eff76ba9d002df7554c05a2528d43"
+    },
+    {
+      "bytes": 518,
+      "path": "docs/OBJECT_FLOW.md",
+      "sha256": "04b330757527223d520312758afceb7ce642413b304be8d27c855b1f0be1af9c"
+    },
+    {
+      "bytes": 669,
+      "path": "docs/OWNERSHIP_AND_ATTRIBUTION.md",
+      "sha256": "d3922eb1f7abc21ae274700ace2586101d2f50256c81dc5434fb39e32b1d7108"
+    },
+    {
+      "bytes": 496,
+      "path": "docs/REPRODUCTION_NOTES.md",
+      "sha256": "f3bb8d60a452f6255859d0ede1f871e4bedb1a8cd73583a68d86ff2113db479d"
+    },
+    {
+      "bytes": 709,
+      "path": "docs/SELECTED_CASE.md",
+      "sha256": "050583cd8f6df5791af6e9ba1bd46d7b142d06be875729c11df98b4200bed6c0"
+    },
+    {
+      "bytes": 504,
+      "path": "docs/USE_CASE.md",
+      "sha256": "78dcfd41177299b48e13e96918e74dc3e446becd0c9b02384b30472b01245bc2"
+    },
+    {
+      "bytes": 676,
+      "path": "evidence/AGGREGATE_RESULTS.json",
+      "sha256": "7d24c4458d89119ab82274ebc09da06ea9e77f1f7d0d9c545cf9df58ef3dbe46"
+    },
+    {
+      "bytes": 1346,
+      "path": "evidence/PUBLIC_EVIDENCE_REGISTER.md",
+      "sha256": "4a21d90141bcee788b5c585acc46dd6bae49767a64286b35158e2f5793e7a0a9"
+    },
+    {
+      "bytes": 2298,
+      "path": "evidence/REPLAY_RESULT.json",
+      "sha256": "edbf2c3ca26ad626d7b2deeda0f1c148b5a9a56e2de58697dc737db2bda914e9"
+    },
+    {
+      "bytes": 1473,
+      "path": "evidence/VERIFICATION_TRANSCRIPT.txt",
+      "sha256": "9592813aa5484b39cdf6ebdedce766df31a40b10ae9ec068a7181e96a39dd2ad"
+    },
+    {
+      "bytes": 1993,
+      "path": "evidence/VERIFIED_HASHES.json",
+      "sha256": "06e0fd17d119c61011167e0d049486a71d6e1a755a268f8dfe68c7ec76f14b36"
+    },
+    {
+      "bytes": 1820,
+      "path": "sample_objects/NM-OBS-001.json",
+      "sha256": "039e4897d240bf43107606e0e689be83dedcd564d8279ea553255e00806c2a9a"
+    },
+    {
+      "bytes": 1930,
+      "path": "sample_objects/NM-OBS-004.json",
+      "sha256": "0ec924094f525d0cc790eebc481222af871469b27b1a062e9384a91201928179"
+    },
+    {
+      "bytes": 1064,
+      "path": "sample_objects/OGS-GOV-001.json",
+      "sha256": "52746e6d1749df2de85d1ae00f4428f5f3d629f71fbedc924e55857ee335ab40"
+    },
+    {
+      "bytes": 1045,
+      "path": "sample_objects/OGS-GOV-004.json",
+      "sha256": "ef6ed5b1d51b3ee0c5c1339a176660da53f09b133946ffd56611e4b84918bcf8"
+    },
+    {
+      "bytes": 1073,
+      "path": "sample_objects/OGS-RCPT-001.json",
+      "sha256": "8a2aea4929f344e96c2fb7ebed68ccada25d5ef81501ed61c7df15761ac06028"
+    },
+    {
+      "bytes": 1064,
+      "path": "sample_objects/OGS-RCPT-004.json",
+      "sha256": "7163485b57754a378ccf20507cbaf88c42a00082fd4a528595638bc3fae1fd89"
+    },
+    {
+      "bytes": 799,
+      "path": "sample_objects/OGS-RPL-001.json",
+      "sha256": "849673fd39a450ada91044dd3d69183f6cdb74807695f730483aaa311a325228"
+    },
+    {
+      "bytes": 807,
+      "path": "sample_objects/OGS-RPL-004.json",
+      "sha256": "2b9c1dc35e4ebf02554297a180dbfbe096df9e48145cbfd0e9825784058a1226"
+    },
+    {
+      "bytes": 838,
+      "path": "schemas/neomundi_signal.schema.json",
+      "sha256": "b58b601f5af13ff39ecc6e6e5977af2c208788c6ea377a29c1927ff075326592"
+    },
+    {
+      "bytes": 768,
+      "path": "schemas/ogs_governance_object.schema.json",
+      "sha256": "1d12928e74eb15523f0495afdbe613bcaf7e9961ad644008afe0cc729829b90d"
+    },
+    {
+      "bytes": 613,
+      "path": "schemas/ogs_receipt.schema.json",
+      "sha256": "a40095fa8ec39d4331a6dc4450e3afcdbb86c0718251798f8c27614824deca3c"
+    },
+    {
+      "bytes": 609,
+      "path": "schemas/replay_result.schema.json",
+      "sha256": "5c4626df08a13a0fccd9ea0e2d92104c2931a1522f5006b9cb8f9b9ad65a62d0"
+    },
+    {
+      "bytes": 2202,
+      "path": "scripts/verify_public_pack.py",
+      "sha256": "ce8ea6232e6d6873c323921dc570a58e1d9034e23e04892002126dfc1687fd4f"
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "repository": "ogs-neomundi-public-interoperability-pilot",
+  "version": "1.0.2-final"
+}

@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "expected": [
+        "observation_only",
+        "allow_as_internal_observation",
+        "limited_use"
+      ],
+      "file": "01_stable_but_fragile.json",
+      "observed": [
+        "observation_only",
+        "allow_as_internal_observation",
+        "limited_use"
+      ],
+      "passed": true,
+      "sha256": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8"
+    },
+    {
+      "expected": [
+        "requires_review",
+        "hold_for_review",
+        "hold"
+      ],
+      "file": "02_variable_and_uncertain.json",
+      "observed": [
+        "requires_review",
+        "hold_for_review",
+        "hold"
+      ],
+      "passed": true,
+      "sha256": "76885176a856a3b02db158040dbe20ef5da24cc7175ce15f1a2cdfd5a86a46cc"
+    },
+    {
+      "expected": [
+        "limited_hypothesis_or_claim_candidate",
+        "allow_limited_hypothesis_no_action",
+        "limited_use"
+      ],
+      "file": "03_supported_but_limited.json",
+      "observed": [
+        "limited_hypothesis_or_claim_candidate",
+        "allow_limited_hypothesis_no_action",
+        "limited_use"
+      ],
+      "passed": true,
+      "sha256": "9db2daba4425805972a5b02d036949d39359b061a6a23aface871011722958bc"
+    },
+    {
+      "expected": [
+        "not_admissible_as_claim",
+        "no_bind_refuse_claim_or_action",
+        "no_bind"
+      ],
+      "file": "04_contradiction_or_overclaim.json",
+      "observed": [
+        "not_admissible_as_claim",
+        "no_bind_refuse_claim_or_action",
+        "no_bind"
+      ],
+      "passed": true,
+      "sha256": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75"
+    },
+    {
+      "expected": [
+        "observation_only_requires_more_measurement",
+        "allow_observation_require_more_measurement",
+        "limited_use"
+      ],
+      "file": "05_partial_measurement.json",
+      "observed": [
+        "observation_only_requires_more_measurement",
+        "allow_observation_require_more_measurement",
+        "limited_use"
+      ],
+      "passed": true,
+      "sha256": "7c83f569c61b08812a2226f921087af34346bd7a07a690d11ab15fc3a9d2c3ee"
+    }
+  ],
+  "failed": 0,
+  "method": "same_payload_same_explicit_rules",
+  "passed": 5,
+  "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1_1_CORRECTED",
+  "verdict": "PASS"
+}

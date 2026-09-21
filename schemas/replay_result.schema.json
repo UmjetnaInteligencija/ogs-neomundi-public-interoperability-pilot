@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "independently_reproduced": {
+      "const": false
+    },
+    "passed": {
+      "const": true
+    },
+    "production_derived": {
+      "const": false
+    },
+    "replay_id": {
+      "pattern": "^OGS-RPL-[0-9]{3}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "replay_id",
+    "source_signal_id",
+    "governance_object_id",
+    "receipt_id",
+    "expected_classification",
+    "observed_classification",
+    "passed"
+  ],
+  "title": "OGS Public Replay Result",
+  "type": "object"
+}

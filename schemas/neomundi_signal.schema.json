@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "issuer": {
+      "type": "string"
+    },
+    "measurement": {
+      "type": "object"
+    },
+    "provenance": {
+      "required": [
+        "input_sha256"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "signal_id": {
+      "pattern": "^NM-OBS-[0-9]{3}$",
+      "type": "string"
+    },
+    "signal_version": {
+      "type": "string"
+    },
+    "source_system": {
+      "type": "string"
+    },
+    "synthetic": {
+      "const": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "signal_id",
+    "source_system",
+    "synthetic",
+    "measurement",
+    "provenance",
+    "signal_version",
+    "issuer"
+  ],
+  "title": "NeoMundi Public Signal",
+  "type": "object"
+}

@@ -1,0 +1,32 @@
+{
+  "allowed_to_become": [
+    "internal_observation",
+    "measurement_note"
+  ],
+  "epistemic_burden": "not_sufficient_for_claim",
+  "execution_status": "NO_BIND",
+  "external_action_allowed": false,
+  "flags": [
+    "stable_but_epistemically_fragile"
+  ],
+  "issuer": "Operational Governance Systems",
+  "judicator_status": "allow_as_internal_observation",
+  "not_allowed_to_become": [
+    "public_claim",
+    "recommendation",
+    "execution_trigger",
+    "customer_facing_statement"
+  ],
+  "object_id": "OGS-GOV-001",
+  "parent_signal_id": "NM-OBS-001",
+  "petunia_status": "observation_only",
+  "policy_version": "OGS-NM-PUBLIC-PILOT-1.0",
+  "rationale": "Stability signal does not establish factual validity or claim admissibility.",
+  "receipt_type": "limited_use",
+  "review_required": false,
+  "schema_version": "ogs_public_governance_object_v1.0",
+  "source_input_sha256": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8",
+  "synthetic": true,
+  "timestamp": "2026-06-28T09:02:58.310800+00:00",
+  "trajectory_id": "OGS-NM-PILOT-001"
+}

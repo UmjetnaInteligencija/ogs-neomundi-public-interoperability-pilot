@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "external_action_allowed": {
+      "const": false
+    },
+    "receipt_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "receipt_id": {
+      "pattern": "^OGS-RCPT-[0-9]{3}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "receipt_id",
+    "source_signal_id",
+    "governance_object_id",
+    "decision",
+    "receipt_type",
+    "external_action_allowed",
+    "receipt_hash",
+    "source_input_sha256"
+  ],
+  "title": "OGS Public Receipt",
+  "type": "object"
+}

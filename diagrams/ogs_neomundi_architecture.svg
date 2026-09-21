@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+<rect width="1600" height="420" fill="white"/>
+<text x="800" y="45" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold">OGS–NeoMundi Public Interoperability Pilot</text>
+<text x="800" y="78" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Synthetic proof of method — no automatic execution</text>
+<g font-family="Arial, sans-serif" font-size="20" text-anchor="middle">
+<rect x="50" y="150" width="240" height="110" rx="18" fill="#f3f3f3" stroke="#333" stroke-width="3"/>
+<text x="170" y="195">Runtime System</text><text x="170" y="225" font-size="16">observed behavior</text>
+<rect x="360" y="150" width="270" height="110" rx="18" fill="#f3f3f3" stroke="#333" stroke-width="3"/>
+<text x="495" y="190">NeoMundi</text><text x="495" y="220" font-size="16">measurement / risk / drift</text>
+<rect x="700" y="150" width="280" height="110" rx="18" fill="#f3f3f3" stroke="#333" stroke-width="3"/>
+<text x="840" y="190">OGS</text><text x="840" y="220" font-size="16">admissibility judgment</text>
+<rect x="1050" y="150" width="230" height="110" rx="18" fill="#f3f3f3" stroke="#333" stroke-width="3"/>
+<text x="1165" y="190">Receipt</text><text x="1165" y="220" font-size="16">bounded outcome</text>
+<rect x="1350" y="150" width="200" height="110" rx="18" fill="#f3f3f3" stroke="#333" stroke-width="3"/>
+<text x="1450" y="190">Replay</text><text x="1450" y="220" font-size="16">audit check</text>
+</g>
+<g stroke="#333" stroke-width="4" fill="none">
+<line x1="290" y1="205" x2="350" y2="205"/><polyline points="338,195 350,205 338,215"/>
+<line x1="630" y1="205" x2="690" y2="205"/><polyline points="678,195 690,205 678,215"/>
+<line x1="980" y1="205" x2="1040" y2="205"/><polyline points="1028,195 1040,205 1028,215"/>
+<line x1="1280" y1="205" x2="1340" y2="205"/><polyline points="1328,195 1340,205 1328,215"/>
+</g>
+<text x="800" y="335" font-family="Arial, sans-serif" font-size="21" text-anchor="middle" font-weight="bold">Observation ≠ evidence · measurement ≠ authority · admissibility ≠ execution permission</text>
+<text x="800" y="375" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">No external action was authorized in the synthetic pilot.</text>
+</svg>

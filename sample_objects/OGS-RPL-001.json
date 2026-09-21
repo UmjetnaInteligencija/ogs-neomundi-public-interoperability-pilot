@@ -1,0 +1,23 @@
+{
+  "expected_classification": {
+    "judicator_status": "allow_as_internal_observation",
+    "petunia_status": "observation_only",
+    "receipt_type": "limited_use"
+  },
+  "governance_object_id": "OGS-GOV-001",
+  "independently_reproduced": false,
+  "method": "same_payload_same_explicit_rules",
+  "observed_classification": {
+    "judicator_status": "allow_as_internal_observation",
+    "petunia_status": "observation_only",
+    "receipt_type": "limited_use"
+  },
+  "passed": true,
+  "production_derived": false,
+  "receipt_id": "OGS-RCPT-001",
+  "replay_id": "OGS-RPL-001",
+  "schema_version": "ogs_public_replay_result_v1.0",
+  "source_input_sha256": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8",
+  "source_signal_id": "NM-OBS-001",
+  "trajectory_id": "OGS-NM-PILOT-001"
+}

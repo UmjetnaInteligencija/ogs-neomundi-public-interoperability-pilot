@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "execution_status": {
+      "const": "NO_BIND"
+    },
+    "external_action_allowed": {
+      "const": false
+    },
+    "object_id": {
+      "pattern": "^OGS-GOV-[0-9]{3}$",
+      "type": "string"
+    },
+    "parent_signal_id": {
+      "pattern": "^NM-OBS-[0-9]{3}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "object_id",
+    "parent_signal_id",
+    "trajectory_id",
+    "policy_version",
+    "petunia_status",
+    "judicator_status",
+    "allowed_to_become",
+    "not_allowed_to_become",
+    "external_action_allowed",
+    "execution_status",
+    "source_input_sha256"
+  ],
+  "title": "OGS Public Governance Object",
+  "type": "object"
+}

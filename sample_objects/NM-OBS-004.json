@@ -1,0 +1,55 @@
+{
+  "issuer": "NeoMundi",
+  "known_limitations": [
+    "A contradiction or overclaim signal is not a legal, safety or factual verdict.",
+    "Human review and independent evidence would still be required."
+  ],
+  "measurement": {
+    "coherence_score": 0.42,
+    "cost_band": "medium",
+    "factual_validity_signal": {
+      "evidence_basis": "runtime consistency and risk signal",
+      "factual_hallucination_score": 0.67,
+      "status": "contradiction_or_overclaim_signal"
+    },
+    "latency_band": "medium",
+    "measurement_status": "complete",
+    "risk_signal": {
+      "level": "high",
+      "types": [
+        "contradiction_signal",
+        "overclaim_signal",
+        "factual_risk"
+      ]
+    },
+    "semantic_variability_signal": {
+      "semantic_instability_score": 0.44,
+      "status": "elevated"
+    },
+    "stability_score": 0.63
+  },
+  "measurement_boundary": [
+    "Synthetic payload for a private, non-production interoperability pilot.",
+    "No raw prompt, raw model output, provider identity, customer data or proprietary schema is included.",
+    "This payload is a runtime observation input only.",
+    "It does not establish truth, safety, authority, downstream permission or execution admissibility."
+  ],
+  "observation_window": {
+    "generated_at": "2026-06-28T06:42:47Z",
+    "type": "synthetic_snapshot"
+  },
+  "provenance": {
+    "hash_algorithm": "sha256_raw_file_bytes",
+    "input_sha256": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75",
+    "public_alias_of_private_observation_id": "nm-ogs-syn-004",
+    "source_batch_id": "nm-ogs-private-pilot-v0.1"
+  },
+  "runtime_context": "high_stakes_explanatory",
+  "schema_version": "neomundi_public_signal_v1.0",
+  "signal_id": "NM-OBS-004",
+  "signal_type": "runtime_measurement_observation",
+  "signal_version": "1.0",
+  "source_component": "runtime_measurement_layer",
+  "source_system": "NeoMundi",
+  "synthetic": true
+}

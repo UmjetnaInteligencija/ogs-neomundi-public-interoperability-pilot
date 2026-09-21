@@ -1,0 +1,23 @@
+{
+  "expected_classification": {
+    "judicator_status": "no_bind_refuse_claim_or_action",
+    "petunia_status": "not_admissible_as_claim",
+    "receipt_type": "no_bind"
+  },
+  "governance_object_id": "OGS-GOV-004",
+  "independently_reproduced": false,
+  "method": "same_payload_same_explicit_rules",
+  "observed_classification": {
+    "judicator_status": "no_bind_refuse_claim_or_action",
+    "petunia_status": "not_admissible_as_claim",
+    "receipt_type": "no_bind"
+  },
+  "passed": true,
+  "production_derived": false,
+  "receipt_id": "OGS-RCPT-004",
+  "replay_id": "OGS-RPL-004",
+  "schema_version": "ogs_public_replay_result_v1.0",
+  "source_input_sha256": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75",
+  "source_signal_id": "NM-OBS-004",
+  "trajectory_id": "OGS-NM-PILOT-004"
+}

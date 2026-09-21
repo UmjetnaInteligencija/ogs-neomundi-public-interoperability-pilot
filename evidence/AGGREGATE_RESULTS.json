@@ -1,0 +1,24 @@
+{
+  "claim_boundary": [
+    "synthetic payloads only",
+    "no live NeoMundi endpoint",
+    "no production model evaluation",
+    "no external action or tool call",
+    "not independently reproduced"
+  ],
+  "evidence_class": "synthetic_internally_verified_not_independently_reproduced",
+  "evidence_version": "1.0",
+  "external_action_allowed_count": 0,
+  "hold_count": 1,
+  "internal_replay": {
+    "failed": 0,
+    "method": "same_payload_same_explicit_rules",
+    "passed": 5,
+    "verdict": "PASS"
+  },
+  "limited_use_count": 3,
+  "no_bind_count": 1,
+  "processed_payloads": 5,
+  "review_required_count": 4,
+  "source_run": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1_1_CORRECTED"
+}

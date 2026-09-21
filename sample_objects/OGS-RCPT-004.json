@@ -1,0 +1,30 @@
+{
+  "allowed_to_become": [
+    "internal_observation_of_failure"
+  ],
+  "decision": "no_bind_refuse_claim_or_action",
+  "execution_status": "NO_BIND",
+  "external_action_allowed": false,
+  "governance_object_id": "OGS-GOV-004",
+  "hash_binding_status": "verified_against_supplied_payload",
+  "issuer": "Operational Governance Systems",
+  "not_allowed_to_become": [
+    "claim",
+    "recommendation",
+    "decision_support",
+    "execution_trigger",
+    "public_statement"
+  ],
+  "policy_version": "OGS-NM-PUBLIC-PILOT-1.0",
+  "receipt_hash": "9e663de2a3046eceb0f9cc900d4aa86556f664ab57178c0369b7eae11cdd7345",
+  "receipt_id": "OGS-RCPT-004",
+  "receipt_security_claim": "local hash integrity and replay only",
+  "receipt_security_level": 1,
+  "receipt_type": "no_bind",
+  "review_required": true,
+  "schema_version": "ogs_public_receipt_v1.0",
+  "source_input_sha256": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75",
+  "source_signal_id": "NM-OBS-004",
+  "timestamp": "2026-06-28T09:02:58.310800+00:00",
+  "trajectory_id": "OGS-NM-PILOT-004"
+}
