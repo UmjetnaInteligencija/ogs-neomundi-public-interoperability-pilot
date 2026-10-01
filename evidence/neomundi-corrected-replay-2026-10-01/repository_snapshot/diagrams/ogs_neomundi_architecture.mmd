@@ -1,0 +1,20 @@
+flowchart TB
+    subgraph OBS[Runtime observation boundary]
+        A[Runtime System] --> B[NeoMundi Observation Layer / ControlTower<br/>Risk • Drift • Variation • Provenance]
+        B --> C[Versioned Signal Package<br/>Context • Confidence • Uncertainty • Limitations]
+    end
+
+    subgraph GOV[OGS / Project Petunia × Judicator governance boundary]
+        D[OGS Intake / Injector<br/>Intent • Scope • Context • Provenance] --> E[Petunia / DPA<br/>Evidence • Uncertainty • Contradiction • Reliance]
+        E --> F[CAOM<br/>Observation → Claim → Proposed Consequence]
+        F --> G{Action proposed?}
+        G -- No action --> H[Governance Receipt<br/>Decision • Conditions • Prohibitions • Integrity]
+        G -- Action proposed --> I[Judicator<br/>Authority • Scope • Context • Consequence • Validity]
+        I -- Admissibility decision --> H
+        H --> J[TAG-HAS Replay / Audit<br/>Reconstruction • Divergence • Traceability]
+    end
+
+    C --> D
+    I -->|Only if explicitly admissible| K[External Effect]
+    C -. No direct signal-to-execution path .-> L[Prohibited bypass]
+    L -.-> K

@@ -1,0 +1,44 @@
+﻿{
+    "schema_version":  "neomundi_ogs_observation_payload_v0.1",
+    "observation_id":  "nm-ogs-syn-003",
+    "generated_at":  "2026-06-28T06:42:47Z",
+    "synthetic":  true,
+    "source":  {
+                   "source_batch_id":  "nm-ogs-private-pilot-v0.1",
+                   "trace_id":  "syn-trace-003",
+                   "model_alias":  "system_gamma",
+                   "prompt_class":  "bounded_reference_task"
+               },
+    "measurement":  {
+                        "measurement_status":  "complete",
+                        "stability_score":  0.91,
+                        "coherence_score":  0.9,
+                        "factual_validity_signal":  {
+                                                        "status":  "supported_with_limitations",
+                                                        "factual_hallucination_score":  0.08,
+                                                        "evidence_basis":  "bounded contextual support signal"
+                                                    },
+                        "semantic_variability_signal":  {
+                                                            "status":  "low",
+                                                            "semantic_instability_score":  0.1
+                                                        },
+                        "latency_band":  "low",
+                        "cost_band":  "low",
+                        "risk_signal":  {
+                                            "level":  "low",
+                                            "types":  [
+                                                          "scope_limitation"
+                                                      ]
+                                        }
+                    },
+    "known_limitations":  [
+                              "The signal is bounded to the observed task context.",
+                              "Support does not establish general reliability outside the measured scope."
+                          ],
+    "measurement_boundary":  [
+                                 "Synthetic payload for a private, non-production interoperability pilot.",
+                                 "No raw prompt, raw model output, provider identity, customer data or proprietary schema is included.",
+                                 "This payload is a runtime observation input only.",
+                                 "It does not establish truth, safety, authority, downstream permission or execution admissibility."
+                             ]
+}

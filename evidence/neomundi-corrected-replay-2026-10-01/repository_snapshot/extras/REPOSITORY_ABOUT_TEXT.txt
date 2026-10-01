@@ -1,0 +1,1 @@
+Synthetic proof-of-method showing how NeoMundi runtime signals become bounded OGS / Petunia × Judicator governance objects, receipts, and replay—without measurement becoming execution authority.

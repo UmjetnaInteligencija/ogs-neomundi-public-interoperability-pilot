@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01_stable_but_fragile.json",
+    "original_recorded_hash": "13ed5be5f0a1a20b3a368bb92c69ed0cb95154849e2c12da87e200898f5c81e2",
+    "corrected_raw_file_hash": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8",
+    "payload_bytes_identical": true,
+    "changed_original_receipt_fields": [
+      "input_hash"
+    ]
+  },
+  {
+    "file": "02_variable_and_uncertain.json",
+    "original_recorded_hash": "d4aa34ba6e96b893086e64f5e4d7668bf0ec0bc7837dc784be12a5a83296b059",
+    "corrected_raw_file_hash": "76885176a856a3b02db158040dbe20ef5da24cc7175ce15f1a2cdfd5a86a46cc",
+    "payload_bytes_identical": true,
+    "changed_original_receipt_fields": [
+      "input_hash"
+    ]
+  },
+  {
+    "file": "03_supported_but_limited.json",
+    "original_recorded_hash": "bf3e899bace7a1b0eed7d36001cdfc2b6ed63505791e2cdf0666749630576915",
+    "corrected_raw_file_hash": "9db2daba4425805972a5b02d036949d39359b061a6a23aface871011722958bc",
+    "payload_bytes_identical": true,
+    "changed_original_receipt_fields": [
+      "input_hash"
+    ]
+  },
+  {
+    "file": "04_contradiction_or_overclaim.json",
+    "original_recorded_hash": "541667962a92da151d48e71e70d0f235d2b6bb0cdd6a122fdd17aec0ea5d4b19",
+    "corrected_raw_file_hash": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75",
+    "payload_bytes_identical": true,
+    "changed_original_receipt_fields": [
+      "input_hash"
+    ]
+  },
+  {
+    "file": "05_partial_measurement.json",
+    "original_recorded_hash": "150201f362e69d90a963ea0aa3468314735bb54e135f22fa2741b61198af0557",
+    "corrected_raw_file_hash": "7c83f569c61b08812a2226f921087af34346bd7a07a690d11ab15fc3a9d2c3ee",
+    "payload_bytes_identical": true,
+    "changed_original_receipt_fields": [
+      "input_hash"
+    ]
+  }
+]

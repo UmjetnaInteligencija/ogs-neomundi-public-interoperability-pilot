@@ -1,0 +1,81 @@
+neomundi-ogs-interoperability-pilot/
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   └── config.yml
+│   ├── workflows
+│   │   └── validate.yml
+│   └── pull_request_template.md
+├── diagrams
+│   ├── ogs_neomundi_architecture.dot
+│   ├── ogs_neomundi_architecture.mmd
+│   ├── ogs_neomundi_architecture.png
+│   └── ogs_neomundi_architecture.svg
+├── docs
+│   ├── APPROVAL_CHECKLIST.md
+│   ├── ARCHITECTURE.md
+│   ├── ATTRIBUTION_AND_IP.md
+│   ├── AUTHORS_AND_ACKNOWLEDGMENTS.md
+│   ├── CITATION.md
+│   ├── EVIDENCE_REGISTER.md
+│   ├── JOINT_CONCLUSION_DRAFT.md
+│   ├── LIMITATIONS.md
+│   ├── METHOD.md
+│   ├── OBJECT_FLOW.md
+│   ├── PUBLIC_CLAIM_BOUNDARY.md
+│   ├── PUBLIC_DISCLOSURE_BOUNDARY.md
+│   ├── PUBLIC_PILOT_SPEC_CONSOLIDATED.md
+│   ├── PUBLICATION_GATE.md
+│   ├── REPOSITORY_METADATA.md
+│   ├── REPRODUCIBILITY.md
+│   ├── RESULTS_AND_EVIDENCE.md
+│   ├── ROADMAP.md
+│   ├── SELECTED_EXAMPLE.md
+│   └── USE_CASE.md
+├── evidence
+│   ├── CORRECTED_EVIDENCE_PACK_REFERENCE.md
+│   ├── EVIDENCE_CLASSIFICATION.md
+│   ├── HISTORICAL_V0_1_DISCLOSURE.md
+│   ├── OGS_NEOMUNDI_PILOT_EVIDENCE_REGISTER_v1_1_CORRECTION_UPDATE.md
+│   └── PRIOR_PACKAGE_REFERENCE.md
+├── extras
+│   ├── FINAL_RELEASE_SEQUENCE.md
+│   ├── GITHUB_PROFILE_README_DRAFT.md
+│   ├── GITHUB_RELEASE_DESCRIPTION.md
+│   ├── LINKEDIN_LAUNCH_POST_DRAFT.md
+│   ├── NEOMUNDI_APPROVAL_REQUEST.md
+│   └── REPOSITORY_ABOUT_TEXT.txt
+├── sample_objects
+│   ├── trajectory_limited_use
+│   │   ├── governance_receipt.json
+│   │   ├── neomundi_signal.json
+│   │   ├── ogs_governance_object.json
+│   │   └── replay_record.json
+│   ├── trajectory_no_bind
+│   │   ├── governance_receipt.json
+│   │   ├── neomundi_signal.json
+│   │   ├── ogs_governance_object.json
+│   │   └── replay_record.json
+│   └── README.md
+├── schemas
+│   ├── governance_receipt.schema.json
+│   ├── neomundi_signal.schema.json
+│   ├── ogs_governance_object.schema.json
+│   ├── README.md
+│   └── replay_record.schema.json
+├── scripts
+│   └── verify_repository.py
+├── .gitignore
+├── CHANGELOG.md
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── GITHUB_UPLOAD_GUIDE.md
+├── LICENSE.md
+├── MANIFEST.json
+├── MANIFEST.sha256
+├── NOTICE.md
+├── README.md
+├── RELEASE_NOTES_v1.1.0-rc.1.md
+├── SECURITY.md
+├── START_HERE.md
+├── TREE.txt
+└── VALIDATION_TRANSCRIPT.txt

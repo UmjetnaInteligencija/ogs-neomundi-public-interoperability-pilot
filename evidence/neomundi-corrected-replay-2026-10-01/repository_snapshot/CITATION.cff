@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this repository using the metadata below and preserve the synthetic/internal evidence qualification."
+title: "Measurement Is Not Authority: NeoMundi × OGS Interoperability Pilot"
+type: software
+version: "1.1.0-rc.1"
+date-released: "2026-07-24"
+authors:
+  - family-names: "Mocnaj"
+    given-names: "Mark"
+abstract: >-
+  Public-safe documentation, schemas, illustrative governance objects, and integrity
+  tooling for a synthetic interoperability pilot between NeoMundi and Operational
+  Governance Systems / Project Petunia × Judicator. Final joint-publication status is
+  subject to partner sign-off. The evidence is synthetic and internally verified, not
+  independently reproduced or production-derived.
+keywords:
+  - AI governance
+  - runtime governance
+  - admissibility
+  - provenance
+  - replay
+  - interoperability
+license: "proprietary"

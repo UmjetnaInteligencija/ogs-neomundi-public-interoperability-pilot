@@ -1,0 +1,46 @@
+{
+  "rules_version": "neomundi_ogs_v0_1_1_explicit_mapping",
+  "rules": [
+    {
+      "when": {
+        "factual_validity_signal.status": "fragile"
+      },
+      "petunia_status": "observation_only",
+      "judicator_status": "allow_as_internal_observation",
+      "receipt_type": "limited_use"
+    },
+    {
+      "when": {
+        "semantic_variability_signal.status": "elevated",
+        "risk_signal.types_contains": "uncertainty"
+      },
+      "petunia_status": "requires_review",
+      "judicator_status": "hold_for_review",
+      "receipt_type": "hold"
+    },
+    {
+      "when": {
+        "factual_validity_signal.status": "supported_with_limitations"
+      },
+      "petunia_status": "limited_hypothesis_or_claim_candidate",
+      "judicator_status": "allow_limited_hypothesis_no_action",
+      "receipt_type": "limited_use"
+    },
+    {
+      "when": {
+        "factual_validity_signal.status": "contradiction_or_overclaim_signal"
+      },
+      "petunia_status": "not_admissible_as_claim",
+      "judicator_status": "no_bind_refuse_claim_or_action",
+      "receipt_type": "no_bind"
+    },
+    {
+      "when": {
+        "measurement.measurement_status": "partial"
+      },
+      "petunia_status": "observation_only_requires_more_measurement",
+      "judicator_status": "allow_observation_require_more_measurement",
+      "receipt_type": "limited_use"
+    }
+  ]
+}

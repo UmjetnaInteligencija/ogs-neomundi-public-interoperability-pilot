@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/ogs_governance_object.schema.json",
+  "title": "OGS Public Governance Object",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "example_status",
+    "object_id",
+    "parent_signal_id",
+    "parent_signal_digest",
+    "trajectory_id",
+    "policy_version",
+    "intended_reliance",
+    "admissibility_class",
+    "evidence_burden",
+    "uncertainty",
+    "review_required",
+    "revalidation_required",
+    "permitted_use",
+    "prohibited_use",
+    "execution_status",
+    "external_action_authorized",
+    "reason_codes",
+    "timestamp",
+    "issuer",
+    "integrity"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "example_status": {
+      "const": "illustrative_public_example_not_historical_pilot_artifact"
+    },
+    "object_id": {
+      "type": "string"
+    },
+    "parent_signal_id": {
+      "type": "string"
+    },
+    "parent_signal_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "trajectory_id": {
+      "type": "string"
+    },
+    "policy_version": {
+      "type": "string"
+    },
+    "intended_reliance": {
+      "type": "string"
+    },
+    "admissibility_class": {
+      "type": "string"
+    },
+    "evidence_burden": {
+      "type": "string"
+    },
+    "uncertainty": {
+      "type": "string"
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "revalidation_required": {
+      "type": "boolean"
+    },
+    "permitted_use": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_use": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "execution_status": {
+      "type": "string"
+    },
+    "external_action_authorized": {
+      "const": false
+    },
+    "reason_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "algorithm",
+        "canonicalization",
+        "digest"
+      ]
+    }
+  }
+}

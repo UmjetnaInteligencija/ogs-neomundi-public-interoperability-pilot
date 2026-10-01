@@ -1,0 +1,7 @@
+Manifest entries: 65 verified
+JSON documents: 13 parsed
+Illustrative trajectories: 2 verified
+External execution authorizations in examples: 0
+Claim boundary: present
+Scope note: public repository integrity and illustrative examples only
+Repository validation: PASS

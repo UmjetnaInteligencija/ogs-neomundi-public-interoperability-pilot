@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.1-public-example",
+  "example_status": "illustrative_public_example_not_historical_pilot_artifact",
+  "replay_id": "OGS-RPL-PUB-EX-001",
+  "trajectory_id": "OGS-NM-PUB-TRAJ-001",
+  "replay_method": "same_public_example_inputs_same_public_example_rules",
+  "policy_version": "OGS-NM-PUBLIC-EXAMPLE-1.1",
+  "source_signal_id": "NM-PUB-EX-001",
+  "source_signal_digest": "b557ee4f2031fda201d7e8723711d020f98200e84d01cbc2108c0c9043aed576",
+  "governance_object_id": "OGS-GOV-PUB-EX-001",
+  "governance_object_digest": "143a9b9c144e8cf6bec65e8479df2d0fe38dca0bd5141056899b63abc3e31fd3",
+  "receipt_id": "OGS-RCPT-PUB-EX-001",
+  "receipt_digest": "ba7dc63c6802272365d1460bc87f7889b395255e9d2aaaf981b5f0df155672b2",
+  "replay_verdict": "REPRODUCED",
+  "original_decision": "LIMITED_USE",
+  "replayed_decision": "LIMITED_USE",
+  "divergence": [],
+  "historical_evidence": false,
+  "external_action_authorized": false,
+  "timestamp": "2026-07-08T12:01:00Z",
+  "issuer": "OGS public example verifier",
+  "integrity": {
+    "algorithm": "SHA-256",
+    "canonicalization": "json-sort-keys-utf8-excluding-integrity.digest",
+    "digest": "34c56a431d11873dc49e3b4e437ce8822752c0eebc3e2712cf126a2233193f6d"
+  }
+}

@@ -1,0 +1,11 @@
+Sebastian,
+
+I have prepared the corrected NeoMundi × Judicator™ OGS pilot evidence for review and intended public release on both our GitHub repositories.
+
+The original receipts had input hashes that did not match the supplied payload files. The correction preserves those original values and binds the receipts to the actual files. A fresh local replay reproduced all five documented classifications, with five passes and no failures. The original payloads and classifications are unchanged.
+
+The package includes the preserved historical evidence, corrected receipts, replay script, fresh execution record, hash comparison and GitHub handoff instructions. It demonstrates replayability and consistency of this synthetic package, not independent validation of the original decisions, a live NeoMundi integration or production readiness.
+
+Please review the correction and evidence qualifications, reproduce the package on your side, and confirm the wording, attribution and inclusion of the evidence archive before public release. Once reviewed, the same evidence folder can be uploaded to both repositories, with the destination commits recorded separately.
+
+Mark

@@ -1,0 +1,46 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.35, nodesep=0.55, ranksep=0.62, fontname="Helvetica", fontsize=13, labelloc="t", label="NeoMundi × OGS Interoperability — Observation to Governed Consequence"];
+  node [shape=box, style="rounded,filled", fillcolor="#F6F7F9", color="#28323C", penwidth=1.2, fontname="Helvetica", fontsize=12, margin="0.18,0.12", width=4.9];
+  edge [color="#4A5560", penwidth=1.1, fontname="Helvetica", fontsize=10, arrowsize=0.8];
+
+  subgraph cluster_observation {
+    label="Runtime observation boundary";
+    color="#B7C4D1";
+    style="rounded";
+    penwidth=1.2;
+    runtime [label="Runtime System", width=3.4];
+    neo [label="NeoMundi Observation Layer / ControlTower\nRisk • Drift • Variation • Provenance"];
+    signal [label="Versioned Signal Package\nContext • Confidence • Uncertainty • Limitations"];
+    runtime -> neo -> signal;
+  }
+
+  subgraph cluster_governance {
+    label="OGS / Project Petunia × Judicator governance boundary";
+    color="#8FA9C2";
+    style="rounded";
+    penwidth=1.3;
+    intake [label="OGS Intake / Injector\nIntent • Scope • Context • Provenance", fillcolor="#EEF5FF"];
+    petunia [label="Petunia / DPA\nEvidence • Uncertainty • Contradiction • Reliance", fillcolor="#EEF5FF"];
+    caom [label="CAOM\nObservation → Claim → Proposed Consequence", fillcolor="#EEF5FF"];
+    action [shape=diamond, label="Action\nproposed?", fillcolor="#FFF8E6", width=2.5, height=1.0, margin="0.08,0.05"];
+    judicator [label="Judicator\nAuthority • Scope • Context • Consequence • Validity", fillcolor="#E8F2FF"];
+    receipt [label="Governance Receipt\nDecision • Conditions • Prohibitions • Integrity"];
+    replay [label="TAG-HAS Replay / Audit\nReconstruction • Divergence • Traceability"];
+    intake -> petunia -> caom -> action;
+    action -> receipt [label="No action"];
+    action -> judicator [label="Action proposed"];
+    judicator -> receipt [label="Admissibility decision"];
+    receipt -> replay;
+  }
+
+  effect [label="External Effect", fillcolor="#FFF0F0", color="#A33A3A", width=3.2];
+  block [shape=note, label="No direct signal-to-execution path", fillcolor="#FFF5F5", color="#A33A3A", width=3.6];
+
+  signal -> intake;
+  judicator -> effect [label="Only if explicitly admissible", color="#2F6F44", fontcolor="#2F6F44", penwidth=1.4];
+  signal -> block [style=dashed, color="#A33A3A", arrowhead=none, constraint=false];
+  block -> effect [style=dashed, color="#A33A3A", fontcolor="#A33A3A", label="Prohibited bypass", constraint=false];
+
+  {rank=same; signal; block}
+  {rank=same; judicator; effect}
+}
