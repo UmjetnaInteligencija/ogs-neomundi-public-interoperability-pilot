@@ -1,0 +1,46 @@
+﻿{
+    "schema_version":  "neomundi_ogs_observation_payload_v0.1",
+    "observation_id":  "nm-ogs-syn-004",
+    "generated_at":  "2026-06-28T06:42:47Z",
+    "synthetic":  true,
+    "source":  {
+                   "source_batch_id":  "nm-ogs-private-pilot-v0.1",
+                   "trace_id":  "syn-trace-004",
+                   "model_alias":  "system_delta",
+                   "prompt_class":  "high_stakes_explanatory"
+               },
+    "measurement":  {
+                        "measurement_status":  "complete",
+                        "stability_score":  0.63,
+                        "coherence_score":  0.42,
+                        "factual_validity_signal":  {
+                                                        "status":  "contradiction_or_overclaim_signal",
+                                                        "factual_hallucination_score":  0.67,
+                                                        "evidence_basis":  "runtime consistency and risk signal"
+                                                    },
+                        "semantic_variability_signal":  {
+                                                            "status":  "elevated",
+                                                            "semantic_instability_score":  0.44
+                                                        },
+                        "latency_band":  "medium",
+                        "cost_band":  "medium",
+                        "risk_signal":  {
+                                            "level":  "high",
+                                            "types":  [
+                                                          "contradiction_signal",
+                                                          "overclaim_signal",
+                                                          "factual_risk"
+                                                      ]
+                                        }
+                    },
+    "known_limitations":  [
+                              "A contradiction or overclaim signal is not a legal, safety or factual verdict.",
+                              "Human review and independent evidence would still be required."
+                          ],
+    "measurement_boundary":  [
+                                 "Synthetic payload for a private, non-production interoperability pilot.",
+                                 "No raw prompt, raw model output, provider identity, customer data or proprietary schema is included.",
+                                 "This payload is a runtime observation input only.",
+                                 "It does not establish truth, safety, authority, downstream permission or execution admissibility."
+                             ]
+}

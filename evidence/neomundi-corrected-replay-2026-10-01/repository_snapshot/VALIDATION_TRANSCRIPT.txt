@@ -1,0 +1,16 @@
+Command: python3 scripts/verify_repository.py
+Working directory: neomundi-ogs-interoperability-pilot
+Final package validation: 2026-07-24T04:40:31Z
+Exit code: 0
+
+STDOUT / STDERR
+---------------
+Manifest entries: 65 verified
+JSON documents: 13 parsed
+Illustrative trajectories: 2 verified
+External execution authorizations in examples: 0
+Claim boundary: present
+Scope note: public repository integrity and illustrative examples only
+Repository validation: PASS
+
+Note: VALIDATION_TRANSCRIPT.txt is excluded from MANIFEST.json to avoid self-referential mutation.

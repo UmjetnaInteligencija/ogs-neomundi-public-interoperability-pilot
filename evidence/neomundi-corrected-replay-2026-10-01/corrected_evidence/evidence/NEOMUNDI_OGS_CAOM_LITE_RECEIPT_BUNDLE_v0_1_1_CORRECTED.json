@@ -1,0 +1,149 @@
+{
+  "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1_1_CORRECTED",
+  "receipts": [
+    {
+      "receipt_id": "NEO-OGS-CAOM-LITE-001",
+      "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1",
+      "timestamp_utc": "2026-06-28T09:02:58.310800+00:00",
+      "source_file": "01_stable_but_fragile.json",
+      "observation_id": "nm-ogs-syn-001",
+      "input_hash": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8",
+      "petunia_status": "observation_only",
+      "epistemic_burden": "not_sufficient_for_claim",
+      "judicator_status": "allow_as_internal_observation",
+      "allowed_to_become": [
+        "internal_observation",
+        "measurement_note"
+      ],
+      "not_allowed_to_become": [
+        "public_claim",
+        "recommendation",
+        "execution_trigger",
+        "customer_facing_statement"
+      ],
+      "review_required": false,
+      "external_action_allowed": false,
+      "receipt_type": "limited_use",
+      "rationale": "Stability signal does not establish factual validity or claim admissibility.",
+      "replay_status": "replayable_same_payload_same_rules",
+      "legacy_recorded_input_hash": "13ed5be5f0a1a20b3a368bb92c69ed0cb95154849e2c12da87e200898f5c81e2",
+      "input_hash_algorithm": "sha256_raw_file_bytes",
+      "hash_binding_status": "verified_against_supplied_payload"
+    },
+    {
+      "receipt_id": "NEO-OGS-CAOM-LITE-002",
+      "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1",
+      "timestamp_utc": "2026-06-28T09:02:58.310800+00:00",
+      "source_file": "02_variable_and_uncertain.json",
+      "observation_id": "nm-ogs-syn-002",
+      "input_hash": "76885176a856a3b02db158040dbe20ef5da24cc7175ce15f1a2cdfd5a86a46cc",
+      "petunia_status": "requires_review",
+      "epistemic_burden": "uncertain_requires_review",
+      "judicator_status": "hold_for_review",
+      "allowed_to_become": [
+        "internal_review_item"
+      ],
+      "not_allowed_to_become": [
+        "claim",
+        "recommendation",
+        "execution_trigger",
+        "external_action"
+      ],
+      "review_required": true,
+      "external_action_allowed": false,
+      "receipt_type": "hold",
+      "rationale": "Variability and uncertainty prevent reliable claim or recommendation status.",
+      "replay_status": "replayable_same_payload_same_rules",
+      "legacy_recorded_input_hash": "d4aa34ba6e96b893086e64f5e4d7668bf0ec0bc7837dc784be12a5a83296b059",
+      "input_hash_algorithm": "sha256_raw_file_bytes",
+      "hash_binding_status": "verified_against_supplied_payload"
+    },
+    {
+      "receipt_id": "NEO-OGS-CAOM-LITE-003",
+      "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1",
+      "timestamp_utc": "2026-06-28T09:02:58.310800+00:00",
+      "source_file": "03_supported_but_limited.json",
+      "observation_id": "nm-ogs-syn-003",
+      "input_hash": "9db2daba4425805972a5b02d036949d39359b061a6a23aface871011722958bc",
+      "petunia_status": "limited_hypothesis_or_claim_candidate",
+      "epistemic_burden": "limited_support_domain_bound",
+      "judicator_status": "allow_limited_hypothesis_no_action",
+      "allowed_to_become": [
+        "bounded_hypothesis",
+        "internal_claim_candidate"
+      ],
+      "not_allowed_to_become": [
+        "unqualified_claim",
+        "recommendation",
+        "execution_trigger"
+      ],
+      "review_required": true,
+      "external_action_allowed": false,
+      "receipt_type": "limited_use",
+      "rationale": "Support exists but is bounded; downstream use must remain limited.",
+      "replay_status": "replayable_same_payload_same_rules",
+      "legacy_recorded_input_hash": "bf3e899bace7a1b0eed7d36001cdfc2b6ed63505791e2cdf0666749630576915",
+      "input_hash_algorithm": "sha256_raw_file_bytes",
+      "hash_binding_status": "verified_against_supplied_payload"
+    },
+    {
+      "receipt_id": "NEO-OGS-CAOM-LITE-004",
+      "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1",
+      "timestamp_utc": "2026-06-28T09:02:58.310800+00:00",
+      "source_file": "04_contradiction_or_overclaim.json",
+      "observation_id": "nm-ogs-syn-004",
+      "input_hash": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75",
+      "petunia_status": "not_admissible_as_claim",
+      "epistemic_burden": "contradicted_or_overclaimed",
+      "judicator_status": "no_bind_refuse_claim_or_action",
+      "allowed_to_become": [
+        "internal_observation_of_failure"
+      ],
+      "not_allowed_to_become": [
+        "claim",
+        "recommendation",
+        "decision_support",
+        "execution_trigger",
+        "public_statement"
+      ],
+      "review_required": true,
+      "external_action_allowed": false,
+      "receipt_type": "no_bind",
+      "rationale": "Contradiction or overclaim blocks claim/recommendation status.",
+      "replay_status": "replayable_same_payload_same_rules",
+      "legacy_recorded_input_hash": "541667962a92da151d48e71e70d0f235d2b6bb0cdd6a122fdd17aec0ea5d4b19",
+      "input_hash_algorithm": "sha256_raw_file_bytes",
+      "hash_binding_status": "verified_against_supplied_payload"
+    },
+    {
+      "receipt_id": "NEO-OGS-CAOM-LITE-005",
+      "run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1",
+      "timestamp_utc": "2026-06-28T09:02:58.310800+00:00",
+      "source_file": "05_partial_measurement.json",
+      "observation_id": "nm-ogs-syn-005",
+      "input_hash": "7c83f569c61b08812a2226f921087af34346bd7a07a690d11ab15fc3a9d2c3ee",
+      "petunia_status": "observation_only_requires_more_measurement",
+      "epistemic_burden": "insufficient_measurement",
+      "judicator_status": "allow_observation_require_more_measurement",
+      "allowed_to_become": [
+        "internal_observation",
+        "measurement_gap_note"
+      ],
+      "not_allowed_to_become": [
+        "claim",
+        "recommendation",
+        "execution_trigger"
+      ],
+      "review_required": true,
+      "external_action_allowed": false,
+      "receipt_type": "limited_use",
+      "rationale": "Measurement is incomplete; only observation-level use is admissible.",
+      "replay_status": "replayable_same_payload_same_rules",
+      "legacy_recorded_input_hash": "150201f362e69d90a963ea0aa3468314735bb54e135f22fa2741b61198af0557",
+      "input_hash_algorithm": "sha256_raw_file_bytes",
+      "hash_binding_status": "verified_against_supplied_payload"
+    }
+  ],
+  "supersedes_run_id": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1",
+  "hash_correction_status": "payload_hashes_rebound_to_supplied_raw_files"
+}

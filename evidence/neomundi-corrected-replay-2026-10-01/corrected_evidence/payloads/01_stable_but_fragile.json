@@ -1,0 +1,44 @@
+﻿{
+    "schema_version":  "neomundi_ogs_observation_payload_v0.1",
+    "observation_id":  "nm-ogs-syn-001",
+    "generated_at":  "2026-06-28T06:42:47Z",
+    "synthetic":  true,
+    "source":  {
+                   "source_batch_id":  "nm-ogs-private-pilot-v0.1",
+                   "trace_id":  "syn-trace-001",
+                   "model_alias":  "system_alpha",
+                   "prompt_class":  "general_explanatory"
+               },
+    "measurement":  {
+                        "measurement_status":  "complete",
+                        "stability_score":  0.94,
+                        "coherence_score":  0.88,
+                        "factual_validity_signal":  {
+                                                        "status":  "fragile",
+                                                        "factual_hallucination_score":  0.41,
+                                                        "evidence_basis":  "runtime signal only"
+                                                    },
+                        "semantic_variability_signal":  {
+                                                            "status":  "low",
+                                                            "semantic_instability_score":  0.06
+                                                        },
+                        "latency_band":  "medium",
+                        "cost_band":  "low",
+                        "risk_signal":  {
+                                            "level":  "medium",
+                                            "types":  [
+                                                          "factual_fragility"
+                                                      ]
+                                        }
+                    },
+    "known_limitations":  [
+                              "Low semantic variability does not demonstrate factual correctness.",
+                              "No external grounding or independent verification evidence is supplied."
+                          ],
+    "measurement_boundary":  [
+                                 "Synthetic payload for a private, non-production interoperability pilot.",
+                                 "No raw prompt, raw model output, provider identity, customer data or proprietary schema is included.",
+                                 "This payload is a runtime observation input only.",
+                                 "It does not establish truth, safety, authority, downstream permission or execution admissibility."
+                             ]
+}

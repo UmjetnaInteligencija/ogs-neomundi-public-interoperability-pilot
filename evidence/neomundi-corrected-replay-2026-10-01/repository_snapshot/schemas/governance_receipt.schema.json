@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/governance_receipt.schema.json",
+  "title": "Public Governance Receipt",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "example_status",
+    "receipt_id",
+    "trajectory_id",
+    "source_signal_id",
+    "source_signal_digest",
+    "governance_object_id",
+    "governance_object_digest",
+    "decision",
+    "review_required",
+    "revalidation_required",
+    "execution_status",
+    "external_action_authorized",
+    "policy_version",
+    "timestamp",
+    "issuer",
+    "integrity"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "example_status": {
+      "const": "illustrative_public_example_not_historical_pilot_artifact"
+    },
+    "receipt_id": {
+      "type": "string"
+    },
+    "trajectory_id": {
+      "type": "string"
+    },
+    "source_signal_id": {
+      "type": "string"
+    },
+    "source_signal_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "governance_object_id": {
+      "type": "string"
+    },
+    "governance_object_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "revalidation_required": {
+      "type": "boolean"
+    },
+    "execution_status": {
+      "type": "string"
+    },
+    "external_action_authorized": {
+      "const": false
+    },
+    "policy_version": {
+      "type": "string"
+    },
+    "previous_receipt_digest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "algorithm",
+        "canonicalization",
+        "digest"
+      ]
+    }
+  }
+}

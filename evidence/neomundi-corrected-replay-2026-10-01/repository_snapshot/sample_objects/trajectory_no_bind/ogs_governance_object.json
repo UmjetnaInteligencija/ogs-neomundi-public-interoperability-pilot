@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.1-public-example",
+  "example_status": "illustrative_public_example_not_historical_pilot_artifact",
+  "object_id": "OGS-GOV-PUB-EX-002",
+  "parent_signal_id": "NM-PUB-EX-002",
+  "parent_signal_digest": "a18e23458ff1686fdf5a599513cdfaf51176db04adafc5daed778a6fdefcf5a3",
+  "trajectory_id": "OGS-NM-PUB-TRAJ-002",
+  "policy_version": "OGS-NM-PUBLIC-EXAMPLE-1.1",
+  "intended_reliance": "public_reliability_claim_and_execution_trigger",
+  "admissibility_class": "NOT_ADMISSIBLE_AS_CLAIM",
+  "evidence_burden": "contradicted_or_overclaimed",
+  "uncertainty": "material",
+  "review_required": true,
+  "revalidation_required": true,
+  "permitted_use": [
+    "internal observation of failure",
+    "manual investigation"
+  ],
+  "prohibited_use": [
+    "claim",
+    "recommendation",
+    "decision support",
+    "execution trigger",
+    "public statement"
+  ],
+  "execution_status": "NO_BIND",
+  "external_action_authorized": false,
+  "reason_codes": [
+    "CONTRADICTION_OR_OVERCLAIM",
+    "EVIDENCE_BURDEN_UNSATISFIED",
+    "NO_EXECUTION_AUTHORITY"
+  ],
+  "timestamp": "2026-07-15T10:00:05Z",
+  "issuer": "OGS public example",
+  "integrity": {
+    "algorithm": "SHA-256",
+    "canonicalization": "json-sort-keys-utf8-excluding-integrity.digest",
+    "digest": "29b9ce7414fd4ff692e587af17fbe82fbbbcd8f8a7f570fc235b9780b0ce580b"
+  }
+}

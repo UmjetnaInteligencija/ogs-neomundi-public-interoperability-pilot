@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.1-public-example",
+  "example_status": "illustrative_public_example_not_historical_pilot_artifact",
+  "signal_id": "NM-PUB-EX-002",
+  "source_system": "NeoMundi ControlTower",
+  "source_component": "runtime_risk_monitor",
+  "observation_window": {
+    "start": "2026-07-08T00:00:00Z",
+    "end": "2026-07-14T23:59:59Z"
+  },
+  "runtime_context": "synthetic_claim_reliability_workflow",
+  "signal_type": "contradiction_or_overclaim",
+  "signal_value": 0.84,
+  "risk_or_drift_class": "claim_release_block_required",
+  "confidence": 0.78,
+  "uncertainty": "high",
+  "supporting_measurements": [
+    "contradiction signal",
+    "factual-risk increase",
+    "context-sensitive instability"
+  ],
+  "measurement_limitations": [
+    "synthetic public example",
+    "risk signal does not prove every output is false",
+    "causal attribution is unresolved",
+    "measurement is not an authorization decision"
+  ],
+  "provenance": {
+    "dataset": "synthetic",
+    "collection_method": "illustrative_simulated_runtime_observation"
+  },
+  "timestamp": "2026-07-15T10:00:00Z",
+  "signal_version": "1.0-public-example",
+  "issuer": "NeoMundi-style public example",
+  "integrity": {
+    "algorithm": "SHA-256",
+    "canonicalization": "json-sort-keys-utf8-excluding-integrity.digest",
+    "digest": "a18e23458ff1686fdf5a599513cdfaf51176db04adafc5daed778a6fdefcf5a3"
+  }
+}

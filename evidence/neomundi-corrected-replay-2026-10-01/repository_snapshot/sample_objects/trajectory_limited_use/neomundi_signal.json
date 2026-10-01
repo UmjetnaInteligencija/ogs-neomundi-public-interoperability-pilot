@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.1-public-example",
+  "example_status": "illustrative_public_example_not_historical_pilot_artifact",
+  "signal_id": "NM-PUB-EX-001",
+  "source_system": "NeoMundi ControlTower",
+  "source_component": "runtime_drift_monitor",
+  "observation_window": {
+    "start": "2026-07-01T00:00:00Z",
+    "end": "2026-07-07T23:59:59Z"
+  },
+  "runtime_context": "synthetic_high_consequence_model_workflow",
+  "signal_type": "behavioral_drift",
+  "signal_value": 0.71,
+  "risk_or_drift_class": "material_review_required",
+  "confidence": 0.82,
+  "uncertainty": "moderate",
+  "supporting_measurements": [
+    "variance increase",
+    "response instability",
+    "scope-sensitive error growth"
+  ],
+  "measurement_limitations": [
+    "synthetic public example",
+    "signal does not identify a definitive cause",
+    "signal does not establish unsafe execution",
+    "measurement is not an authorization decision"
+  ],
+  "provenance": {
+    "dataset": "synthetic",
+    "collection_method": "illustrative_simulated_runtime_observation"
+  },
+  "timestamp": "2026-07-08T12:00:00Z",
+  "signal_version": "1.0-public-example",
+  "issuer": "NeoMundi-style public example",
+  "integrity": {
+    "algorithm": "SHA-256",
+    "canonicalization": "json-sort-keys-utf8-excluding-integrity.digest",
+    "digest": "b557ee4f2031fda201d7e8723711d020f98200e84d01cbc2108c0c9043aed576"
+  }
+}

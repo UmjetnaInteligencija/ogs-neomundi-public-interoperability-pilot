@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.1-public-example",
+  "example_status": "illustrative_public_example_not_historical_pilot_artifact",
+  "receipt_id": "OGS-RCPT-PUB-EX-002",
+  "trajectory_id": "OGS-NM-PUB-TRAJ-002",
+  "source_signal_id": "NM-PUB-EX-002",
+  "source_signal_digest": "a18e23458ff1686fdf5a599513cdfaf51176db04adafc5daed778a6fdefcf5a3",
+  "governance_object_id": "OGS-GOV-PUB-EX-002",
+  "governance_object_digest": "29b9ce7414fd4ff692e587af17fbe82fbbbcd8f8a7f570fc235b9780b0ce580b",
+  "decision": "NO_BIND",
+  "review_required": true,
+  "revalidation_required": true,
+  "execution_status": "NO_BIND",
+  "external_action_authorized": false,
+  "policy_version": "OGS-NM-PUBLIC-EXAMPLE-1.1",
+  "previous_receipt_digest": null,
+  "timestamp": "2026-07-15T10:00:06Z",
+  "issuer": "OGS public example",
+  "integrity": {
+    "algorithm": "SHA-256",
+    "canonicalization": "json-sort-keys-utf8-excluding-integrity.digest",
+    "digest": "781709ed16c9dd8105524d59bbbce81bf9c53d75a61d4173f6242a07ab8d0661"
+  }
+}

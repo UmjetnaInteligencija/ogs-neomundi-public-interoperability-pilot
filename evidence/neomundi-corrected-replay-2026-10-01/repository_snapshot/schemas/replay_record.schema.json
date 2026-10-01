@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/replay_record.schema.json",
+  "title": "Public Replay Record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "example_status",
+    "replay_id",
+    "trajectory_id",
+    "replay_method",
+    "policy_version",
+    "source_signal_id",
+    "source_signal_digest",
+    "governance_object_id",
+    "governance_object_digest",
+    "receipt_id",
+    "receipt_digest",
+    "replay_verdict",
+    "original_decision",
+    "replayed_decision",
+    "divergence",
+    "historical_evidence",
+    "external_action_authorized",
+    "timestamp",
+    "issuer",
+    "integrity"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "example_status": {
+      "const": "illustrative_public_example_not_historical_pilot_artifact"
+    },
+    "replay_id": {
+      "type": "string"
+    },
+    "trajectory_id": {
+      "type": "string"
+    },
+    "replay_method": {
+      "type": "string"
+    },
+    "policy_version": {
+      "type": "string"
+    },
+    "source_signal_id": {
+      "type": "string"
+    },
+    "source_signal_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "governance_object_id": {
+      "type": "string"
+    },
+    "governance_object_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "receipt_id": {
+      "type": "string"
+    },
+    "receipt_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "replay_verdict": {
+      "type": "string"
+    },
+    "original_decision": {
+      "type": "string"
+    },
+    "replayed_decision": {
+      "type": "string"
+    },
+    "divergence": {
+      "type": "array"
+    },
+    "historical_evidence": {
+      "const": false
+    },
+    "external_action_authorized": {
+      "const": false
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "algorithm",
+        "canonicalization",
+        "digest"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+﻿{
+    "schema_version":  "neomundi_ogs_observation_payload_v0.1",
+    "observation_id":  "nm-ogs-syn-005",
+    "generated_at":  "2026-06-28T06:42:47Z",
+    "synthetic":  true,
+    "source":  {
+                   "source_batch_id":  "nm-ogs-private-pilot-v0.1",
+                   "trace_id":  "syn-trace-005",
+                   "model_alias":  "system_epsilon",
+                   "prompt_class":  "partial_observation"
+               },
+    "measurement":  {
+                        "measurement_status":  "partial",
+                        "measurement_coverage":  0.54,
+                        "stability_score":  0.92,
+                        "coherence_score":  0.79,
+                        "factual_validity_signal":  {
+                                                        "status":  "not_assessed",
+                                                        "factual_hallucination_score":  null,
+                                                        "evidence_basis":  "insufficient measurement coverage"
+                                                    },
+                        "semantic_variability_signal":  {
+                                                            "status":  "low_observed_variability",
+                                                            "semantic_instability_score":  0.08
+                                                        },
+                        "latency_band":  "unknown",
+                        "cost_band":  "unknown",
+                        "risk_signal":  {
+                                            "level":  "medium",
+                                            "types":  [
+                                                          "incomplete_observation",
+                                                          "coverage_limitation"
+                                                      ]
+                                        }
+                    },
+    "known_limitations":  [
+                              "Observed stability must not be interpreted as complete evidence.",
+                              "Missing measurement dimensions may materially change downstream admissibility."
+                          ],
+    "measurement_boundary":  [
+                                 "Synthetic payload for a private, non-production interoperability pilot.",
+                                 "No raw prompt, raw model output, provider identity, customer data or proprietary schema is included.",
+                                 "This payload is a runtime observation input only.",
+                                 "It does not establish truth, safety, authority, downstream permission or execution admissibility."
+                             ]
+}

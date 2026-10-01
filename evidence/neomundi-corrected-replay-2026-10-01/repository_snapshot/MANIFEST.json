@@ -1,0 +1,351 @@
+{
+  "artifact": "NeoMundi × OGS Public Interoperability Pilot Repository",
+  "repository_name": "neomundi-ogs-interoperability-pilot",
+  "version": "1.1.0-rc.1",
+  "release_date": "2026-07-24",
+  "status": "public_release_candidate_pending_joint_signoff",
+  "evidence_status": "synthetic_internally_verified_not_independently_reproduced_not_production_derived",
+  "controlled_public_claim": "Five synthetic NeoMundi-style observation payloads were processed through an explicit OGS admissibility mapping. Five corrected payload-bound receipts were generated, and an internal deterministic replay reproduced all five documented classifications under the same payloads and explicit rules. No external action was authorized. The result is synthetic, internally verified, and not independently reproduced or production-derived.",
+  "corrected_evidence_pack": {
+    "filename": "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1_1_CORRECTED_EVIDENCE_PACK.zip",
+    "sha256": "6e5f5f24f29f9612ac53a48cac41dfbc48c435fcd21b34b6f5a938d4a482fdc6",
+    "embedded": false
+  },
+  "prior_repository_archive_reference": {
+    "filename": "OGS_NEOMUNDI_PUBLIC_INTEROPERABILITY_PILOT_REPOSITORY_v1_0_2_FINAL.zip",
+    "sha256": "40e78daf21e50ba8a8d242d0a55351cc191d4ccfa8a1c8003b810abc3f59981b",
+    "embedded": false
+  },
+  "manifest_exclusions": [
+    "MANIFEST.json",
+    "MANIFEST.sha256",
+    "VALIDATION_TRANSCRIPT.txt"
+  ],
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "dfb41b1ed31ec6082914008d3f5ecd448a45653ba8147868d09d88cc6ebeb47d",
+      "bytes": 244
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "a79b152d0fb7045d85703341c50a68602a95ba7a2d5f7db084f65b8a25a5abf4",
+      "bytes": 666
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "8f492cd3b2c67ad868b8d9e848e65bbf8081d7b4191ec98cd75e07f5612ce516",
+      "bytes": 434
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9bce7daa68376f16d4d6fa45e8884bd5c5b133ae9cecd28c56f0795afbbb7388",
+      "bytes": 294
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "dc9007aacc4bd753e1f5ec7a5411250044f44afa121bd389eccfbe18f1afa935",
+      "bytes": 1316
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "3c1218606a949d5bf03a15e65f749749ea9aefe280f91fab22c71f16591470b3",
+      "bytes": 888
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "ba3e1c79977019586a4353187f9172c98a50cb22e0b83c106d1a92d03430ab8d",
+      "bytes": 667
+    },
+    {
+      "path": "GITHUB_UPLOAD_GUIDE.md",
+      "sha256": "2e8c68c9ae337a27718c30c161455843da945c7fa0ca0be6dee85f1d18233e46",
+      "bytes": 4961
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "b031a43bdeb654f599b2f5959475065b084ed44a329df2c731b3b29493f71357",
+      "bytes": 1316
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "ebd21f9c57cb6cfcd848e7c9bbb305e80e75df7a7a9a18e0df9d591a83b098fa",
+      "bytes": 953
+    },
+    {
+      "path": "README.md",
+      "sha256": "914cd583df0e41766c548178f382e4e390b15ab100fcbbd4415db0999151b43a",
+      "bytes": 4545
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.0-rc.1.md",
+      "sha256": "4e64e3ceaad8658bb450bad3fbd1d6b931d3579f1d7ae7c857d58f2f18268b57",
+      "bytes": 1481
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "1611e981651b2e2a09bea0f080d3655ee286552b4ef3b81d979f58c84fb81f96",
+      "bytes": 714
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "45f5148ed125406483f654c418977f762da3e97a63ba5408ca53fd2b2466ae07",
+      "bytes": 1411
+    },
+    {
+      "path": "TREE.txt",
+      "sha256": "802570e8f9950702cc56ca73ecaa1bc77623d1e90be7dfdac0cd0a1b0f5c788c",
+      "bytes": 2877
+    },
+    {
+      "path": "diagrams/ogs_neomundi_architecture.dot",
+      "sha256": "04475148c6c5c6607ffd6f1179aaa7df1c3b0bd058a81801e5d9d87a952dd845",
+      "bytes": 2633
+    },
+    {
+      "path": "diagrams/ogs_neomundi_architecture.mmd",
+      "sha256": "22f03bc7356d42f521326a0bc38a6c8dd16a9807f09dca69ba708f226b88d95b",
+      "bytes": 1150
+    },
+    {
+      "path": "diagrams/ogs_neomundi_architecture.png",
+      "sha256": "561cd8caa7545fc058c035eee6b60a9e5065ef30865248a2c35cbe28abe65695",
+      "bytes": 270193
+    },
+    {
+      "path": "diagrams/ogs_neomundi_architecture.svg",
+      "sha256": "4146cb8443eede1b1472d229eccb1f0203fe30d8afc30b27c1edcf96605fff6e",
+      "bytes": 14464
+    },
+    {
+      "path": "docs/APPROVAL_CHECKLIST.md",
+      "sha256": "cd1c865717fa1ed8e4365778806792fcd6b2e973444c7c7025d57abf49a6f23f",
+      "bytes": 2197
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "66511afe481ba0704f3f5ee39d4eaf6e7380639256fde4d4bcd8ddad565b66cf",
+      "bytes": 2536
+    },
+    {
+      "path": "docs/ATTRIBUTION_AND_IP.md",
+      "sha256": "499ba1b17c1f9ae77b29648943ea46647ce77b50a1d7c1854362651018e5afc8",
+      "bytes": 1634
+    },
+    {
+      "path": "docs/AUTHORS_AND_ACKNOWLEDGMENTS.md",
+      "sha256": "3450db159543dd9a2e36a88d4c1ab642bacfa48499b4daf33d272d769c85fe33",
+      "bytes": 782
+    },
+    {
+      "path": "docs/CITATION.md",
+      "sha256": "e6979c523b015edf24dd6fb682eba559db80a2f44e54174a8bbe7566599f6c88",
+      "bytes": 688
+    },
+    {
+      "path": "docs/EVIDENCE_REGISTER.md",
+      "sha256": "1ec964293a4e7b332960c32fbae480b5386e29c1a2fc78c9e76546129af797cf",
+      "bytes": 1884
+    },
+    {
+      "path": "docs/JOINT_CONCLUSION_DRAFT.md",
+      "sha256": "cc79de5a69f1d813bf7cbb213af850e6d278797bc3a6aab0ac2788110e8f6d3a",
+      "bytes": 1247
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "280e78dfe068c7300950df0d80ea0963e6ea672994f9135887a1e9f46216a1df",
+      "bytes": 1768
+    },
+    {
+      "path": "docs/METHOD.md",
+      "sha256": "398931c0b598ea11f6c31e5140f1db478242e5e67049d7da293916cf39667cfc",
+      "bytes": 2089
+    },
+    {
+      "path": "docs/OBJECT_FLOW.md",
+      "sha256": "336783a0b17b10753d552c451b740d748e112cb3d7d7f797aef8a58e7edd01aa",
+      "bytes": 1592
+    },
+    {
+      "path": "docs/PUBLICATION_GATE.md",
+      "sha256": "3ffe782cc25d8bd8c722dc823c7d3a3d57516dfe62f8bfa779ee9f525d3940f4",
+      "bytes": 1854
+    },
+    {
+      "path": "docs/PUBLIC_CLAIM_BOUNDARY.md",
+      "sha256": "e84945cd6e901491abd77a93d8e1c76c02f03e55dab749427ab346ea04990bac",
+      "bytes": 2939
+    },
+    {
+      "path": "docs/PUBLIC_DISCLOSURE_BOUNDARY.md",
+      "sha256": "9190eb8b4c12cb0e32ce39a7bd1140950460db58960ca6451c5cc0e6c7c8d407",
+      "bytes": 1351
+    },
+    {
+      "path": "docs/PUBLIC_PILOT_SPEC_CONSOLIDATED.md",
+      "sha256": "1b905f0805f8549b52168ed0fa271d3f748c710a6616e42613e1ae2ab4488cf5",
+      "bytes": 4320
+    },
+    {
+      "path": "docs/REPOSITORY_METADATA.md",
+      "sha256": "1acf5f77583acddce25271302ddbd9cd86fed16c87536af755facd6f0d2d8e44",
+      "bytes": 1027
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "78dfb3571864000aee4154f46bb528e9910a8fe4bd6c190c0cfa49d742c20518",
+      "bytes": 1695
+    },
+    {
+      "path": "docs/RESULTS_AND_EVIDENCE.md",
+      "sha256": "626f7363105da9a21e27cf568993074413ba64e5be28761c9d4a7b32c6bc4b66",
+      "bytes": 2430
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "sha256": "088dd8c49bed32b9d1bb7c8614941c40716b6a2bbb2ce07b56dc703e37015e6b",
+      "bytes": 983
+    },
+    {
+      "path": "docs/SELECTED_EXAMPLE.md",
+      "sha256": "a462198900d088699cffd9efc4a820fa52ac27436974667fce626a7391c3b8c0",
+      "bytes": 1280
+    },
+    {
+      "path": "docs/USE_CASE.md",
+      "sha256": "4c9ffa9c6bbfa4a8caf1451e40085f165f54c3fd5b692e3338b4363388486e6f",
+      "bytes": 1780
+    },
+    {
+      "path": "evidence/CORRECTED_EVIDENCE_PACK_REFERENCE.md",
+      "sha256": "78cdc3c287cba3b737190916401181f4dbc2bfb808d17e901727c683478ecc83",
+      "bytes": 1149
+    },
+    {
+      "path": "evidence/EVIDENCE_CLASSIFICATION.md",
+      "sha256": "c45b773cfc6595d468fb42735876fadc0be34294b8080228fd77356d3619bc66",
+      "bytes": 890
+    },
+    {
+      "path": "evidence/HISTORICAL_V0_1_DISCLOSURE.md",
+      "sha256": "53d3b995be092b206ef6f838f7045ceb51d81601f72c9977cda2c160925dfb5b",
+      "bytes": 1089
+    },
+    {
+      "path": "evidence/OGS_NEOMUNDI_PILOT_EVIDENCE_REGISTER_v1_1_CORRECTION_UPDATE.md",
+      "sha256": "5dbc6e4236cbba13387efdf0b4dc3422d4fbe9e4f9959208c48fde9e651b81aa",
+      "bytes": 1560
+    },
+    {
+      "path": "evidence/PRIOR_PACKAGE_REFERENCE.md",
+      "sha256": "78ff9b826f6ead6c6f08811097dcf369a98763d3ea7f63c1bea216522377adb0",
+      "bytes": 423
+    },
+    {
+      "path": "extras/FINAL_RELEASE_SEQUENCE.md",
+      "sha256": "d284abb0b63e7e7d0eb7d578e75324b6d5519d4723b91238375dcfc21a38dd01",
+      "bytes": 737
+    },
+    {
+      "path": "extras/GITHUB_PROFILE_README_DRAFT.md",
+      "sha256": "bffdf9f9e38ecfde067b40c4a856cbf95e894804d9fb768f9bb7f741756a3eac",
+      "bytes": 1052
+    },
+    {
+      "path": "extras/GITHUB_RELEASE_DESCRIPTION.md",
+      "sha256": "cc4104181b9505b62098d6b68fa2da1b83c83615eb726de44cf1e1197d54c573",
+      "bytes": 1153
+    },
+    {
+      "path": "extras/LINKEDIN_LAUNCH_POST_DRAFT.md",
+      "sha256": "e13b3da13a7127202872842e096414e19f7498e8809122c80bd80dc7b43b867c",
+      "bytes": 1292
+    },
+    {
+      "path": "extras/NEOMUNDI_APPROVAL_REQUEST.md",
+      "sha256": "89351625c8d6a42db7f9712f4f4ff797480fc8b70e7edb197bbb4cd9c36cc78d",
+      "bytes": 1363
+    },
+    {
+      "path": "extras/REPOSITORY_ABOUT_TEXT.txt",
+      "sha256": "78040f823ba49a411125acd5a11d4a3611ab9f133884c2d123d47c19bb3aeac0",
+      "bytes": 198
+    },
+    {
+      "path": "sample_objects/README.md",
+      "sha256": "176b9e191c1455479c2f7088ae9b40b643264dbe103db35cad217cf7f2e2dd15",
+      "bytes": 581
+    },
+    {
+      "path": "sample_objects/trajectory_limited_use/governance_receipt.json",
+      "sha256": "a4ed1e05926a55ecb8a23d2882a5a79993ac4eea9187849446a0b877adba0b62",
+      "bytes": 1009
+    },
+    {
+      "path": "sample_objects/trajectory_limited_use/neomundi_signal.json",
+      "sha256": "a22963945c3e70e20ee922b8e7de57d6e06b61e3e0038e99d8015aa8bd6bd8f3",
+      "bytes": 1378
+    },
+    {
+      "path": "sample_objects/trajectory_limited_use/ogs_governance_object.json",
+      "sha256": "1e6901b4da0ec7e9b3b4083bfe5690eda1dbd96d7de1da6cf67a50b916adb792",
+      "bytes": 1357
+    },
+    {
+      "path": "sample_objects/trajectory_limited_use/replay_record.json",
+      "sha256": "90dd0dc5901ccf08b4a4b83936f2f368cd805c22ee04b4689270ec8dbe14249d",
+      "bytes": 1223
+    },
+    {
+      "path": "sample_objects/trajectory_no_bind/governance_receipt.json",
+      "sha256": "87df0be3c39ca2915dc19df1ada8d15cef4b3527b883eb3b418e873b9c152245",
+      "bytes": 1005
+    },
+    {
+      "path": "sample_objects/trajectory_no_bind/neomundi_signal.json",
+      "sha256": "d45f9a3afab41defa45963a41fb9713cda4de9901c98254adf6c8398ebc66827",
+      "bytes": 1382
+    },
+    {
+      "path": "sample_objects/trajectory_no_bind/ogs_governance_object.json",
+      "sha256": "1263ecdc95d6b75ae8eec7ec01264e4d75579588e8dc82508c4a0e4780f1609f",
+      "bytes": 1352
+    },
+    {
+      "path": "sample_objects/trajectory_no_bind/replay_record.json",
+      "sha256": "03aa76f601d1f1d83ab8b524529213d2de05add521cb3a836fff9c63b3cb93bf",
+      "bytes": 1215
+    },
+    {
+      "path": "schemas/README.md",
+      "sha256": "1575154302cd642048d2ef1c639467e3373e85c2d040af7a3f14f7c14c8b4355",
+      "bytes": 378
+    },
+    {
+      "path": "schemas/governance_receipt.schema.json",
+      "sha256": "a44fbbbe86b28c10fd20582137e6e3ba735bf8efecedaa274010155c8e969dc0",
+      "bytes": 1881
+    },
+    {
+      "path": "schemas/neomundi_signal.schema.json",
+      "sha256": "e93af745ad3667f4c9fc137b85171490e6f828de7d4052bf183a2f6f30ef5766",
+      "bytes": 2552
+    },
+    {
+      "path": "schemas/ogs_governance_object.schema.json",
+      "sha256": "cef25f1f4b66e165f46349f3107de1d6b5880cd603bb640594b8c55459ffe9a9",
+      "bytes": 2193
+    },
+    {
+      "path": "schemas/replay_record.schema.json",
+      "sha256": "7f9ca801eb2f320e3ed7c1072a6c8d2bcc717b98bc05c77c30b77b7bbaf594fa",
+      "bytes": 2102
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "sha256": "cf312bdeb4637891b8377de9d3815a09388122c05c395b98f112df0a517a7703",
+      "bytes": 7634
+    }
+  ]
+}

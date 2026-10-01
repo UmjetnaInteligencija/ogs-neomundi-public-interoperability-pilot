@@ -1,0 +1,51 @@
+{
+  "handoff_version": "1.0-public-rc",
+  "conversation_date": "2026-10-01",
+  "execution_identity": "ChatGPT assistant-controlled local Python execution",
+  "independent_external_reproduction": false,
+  "time_basis": "Execution timestamps are the observed runtime clock, not trusted timestamps. Conversation date is supplied session context.",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "source_archive_sha256": {
+    "NeoMundi_OGS_Private_Pilot_v0.1_Synthetic_Payloads.zip": "0e72ab5216b39d443e12e0ddabb0fb0e92bc9e8ece826b1c9dbeb58c33b9d9c1",
+    "neomundi-ogs-interoperability-pilot-v1.1.0-rc.1.zip": "8bf3794a444ae719d7c678ec784c06dc523147329a2ddb97ab44480fda54bb6d",
+    "NEOMUNDI_OGS_PRIVATE_PILOT_v0_1_1_CORRECTED_EVIDENCE_PACK.zip": "6e5f5f24f29f9612ac53a48cac41dfbc48c435fcd21b34b6f5a938d4a482fdc6"
+  },
+  "commands": [
+    {
+      "label": "corrected_replay",
+      "command_as_executed": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4a0485e34c23/neomundi_review/handoff_execution/corrected/verification/verify_and_replay.py"
+      ],
+      "exit_code": 0,
+      "started_at_runtime_clock_utc": "2026-10-01T05:32:33.964896+00:00",
+      "finished_at_runtime_clock_utc": "2026-10-01T05:32:33.999716+00:00",
+      "stdout_file": "corrected_replay.stdout.txt",
+      "stderr_file": "corrected_replay.stderr.txt"
+    },
+    {
+      "label": "repository_snapshot_integrity",
+      "command_as_executed": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4a0485e34c23/neomundi_review/deliverables/NeoMundi_OGS_Corrected_Evidence_Public_RC_v1.0/repository_snapshot/scripts/verify_repository.py"
+      ],
+      "exit_code": 0,
+      "started_at_runtime_clock_utc": "2026-10-01T05:32:34.000223+00:00",
+      "finished_at_runtime_clock_utc": "2026-10-01T05:32:34.035550+00:00",
+      "stdout_file": "repository_snapshot_integrity.stdout.txt",
+      "stderr_file": "repository_snapshot_integrity.stderr.txt"
+    }
+  ],
+  "corrected_manifest_entries_verified": 12,
+  "known_cases": 5,
+  "original_payloads_byte_identical": 5,
+  "legacy_receipt_hashes_mismatched": 5,
+  "corrected_replay_passed": 5,
+  "corrected_replay_failed": 0,
+  "fresh_report_equals_packaged_report": true,
+  "github_current_tree_inspected": false,
+  "github_update_performed": false,
+  "external_action_authorized": false,
+  "scoring_or_mapping_changes": false
+}

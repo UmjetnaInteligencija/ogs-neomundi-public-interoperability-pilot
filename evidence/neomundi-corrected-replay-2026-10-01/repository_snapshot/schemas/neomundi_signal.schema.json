@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/neomundi_signal.schema.json",
+  "title": "NeoMundi-style Public Signal Object",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "example_status",
+    "signal_id",
+    "source_system",
+    "source_component",
+    "observation_window",
+    "runtime_context",
+    "signal_type",
+    "risk_or_drift_class",
+    "confidence",
+    "uncertainty",
+    "measurement_limitations",
+    "provenance",
+    "timestamp",
+    "signal_version",
+    "issuer",
+    "integrity"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "example_status": {
+      "const": "illustrative_public_example_not_historical_pilot_artifact"
+    },
+    "signal_id": {
+      "type": "string"
+    },
+    "source_system": {
+      "type": "string"
+    },
+    "source_component": {
+      "type": "string"
+    },
+    "observation_window": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        }
+      }
+    },
+    "runtime_context": {
+      "type": "string"
+    },
+    "signal_type": {
+      "type": "string"
+    },
+    "signal_value": {
+      "type": [
+        "number",
+        "string",
+        "null"
+      ]
+    },
+    "risk_or_drift_class": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "uncertainty": {
+      "type": "string"
+    },
+    "supporting_measurements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "measurement_limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "signal_version": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "integrity": {
+      "$ref": "#/$defs/integrity"
+    }
+  },
+  "$defs": {
+    "integrity": {
+      "type": "object",
+      "required": [
+        "algorithm",
+        "canonicalization",
+        "digest"
+      ],
+      "properties": {
+        "algorithm": {
+          "const": "SHA-256"
+        },
+        "canonicalization": {
+          "type": "string"
+        },
+        "digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    }
+  }
+}
