@@ -1,0 +1,87 @@
+name: Synthetic evidence consistency and replay
+
+# No path filters: the root manifest includes docs, schemas and binary assets.
+# The nested repository_snapshot workflow remains preserved evidence only.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  # The preserved handoff verifier uses assertions; keep them enabled.
+  PYTHONOPTIMIZE: '0'
+  PYTHONUNBUFFERED: '1'
+
+# Separate jobs, with no dependency or continue-on-error, so both run and
+# a verification failure in either scope fails the workflow.
+jobs:
+  root_sample_pack_consistency:
+    name: Root manifest and public-pack consistency
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out the revision under test
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+
+      - name: State root sample-pack evidence scope
+        run: |
+          cat <<'EOF' | tee -a "$GITHUB_STEP_SUMMARY"
+          ### Root manifest and public-pack consistency
+          Commands: `python3 scripts/verify_root_manifest.py`, then `python3 scripts/verify_public_pack.py`
+          Scope: all 37 preserved manifest entries (SHA-256 and bytes), public sample-object links, hash-field agreement, recorded outcomes, and aggregate replay counts.
+          CI repeats repository-maintained synthetic consistency checks. It is not independent validation.
+          EOF
+
+      - name: Verify all preserved root manifest entries
+        run: python3 scripts/verify_root_manifest.py
+
+      - name: Verify root sample-pack consistency
+        run: python3 scripts/verify_public_pack.py
+
+      - name: Check root integrity rejects corrupted copies
+        run: python3 -m unittest discover -s tests -p test_root_manifest.py -v
+
+  preserved_corrected_handoff_replay:
+    name: Preserved corrected handoff - five-case replay
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out the revision under test
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+
+      - name: State preserved corrected-handoff evidence scope
+        run: |
+          cat <<'EOF' | tee -a "$GITHUB_STEP_SUMMARY"
+          ### Preserved corrected handoff - five-case replay
+          Command: `python3 evidence/neomundi-corrected-replay-2026-10-01/verify_handoff.py`
+          Scope: handoff inventory and hashes, five preserved payload/receipt bindings, and corrected replay in a temporary copy.
+          CI repeats repository-maintained synthetic replayability and consistency checks. It is not independent validation or live integration.
+          EOF
+
+      - name: Verify preserved handoff and replay all five corrected cases
+        run: python3 evidence/neomundi-corrected-replay-2026-10-01/verify_handoff.py
+
+      - name: Check handoff verification rejects corrupted copies
+        run: python3 -m unittest discover -s tests -p test_handoff_integrity.py -v
