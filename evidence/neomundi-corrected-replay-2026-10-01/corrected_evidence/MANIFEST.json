@@ -20,11 +20,6 @@
       "sha256": "a8087d13755d56fc05e790f5ca8464989fb256dea91251153d77357b0e03f233"
     },
     {
-      "path": "evidence/NEOMUNDI_OGS_PRIVATE_PILOT_RESULTS_v0_1_1_CORRECTED.json",
-      "bytes": 16517,
-      "sha256": "e945985271fd4c5b93ae0bb24090d29cd26f9520d5f9e89d1fee5baf58bb1165"
-    },
-    {
       "path": "evidence/NEOMUNDI_OGS_REPLAY_EXECUTION_RESULT_v0_1_1.json",
       "bytes": 2298,
       "sha256": "a94d4ce69d36baac79c243acc035ca16df6d253ce42859e5f0ba4158bc288bf8"
@@ -33,6 +28,11 @@
       "path": "evidence/NEOMUNDI_OGS_REPLAY_EXECUTION_TRANSCRIPT_v0_1_1.txt",
       "bytes": 3465,
       "sha256": "e68759043c09d60f70b165fe7cd257fef80b10460bc621c31c5bd919baf41164"
+    },
+    {
+      "path": "evidence/NEOMUNDI_OGS_SYNTHETIC_PILOT_RESULTS_v0_1_1_CORRECTED.json",
+      "bytes": 16517,
+      "sha256": "e945985271fd4c5b93ae0bb24090d29cd26f9520d5f9e89d1fee5baf58bb1165"
     },
     {
       "path": "payloads/01_stable_but_fragile.json",
@@ -66,8 +66,10 @@
     },
     {
       "path": "verification/verify_and_replay.py",
-      "bytes": 2461,
-      "sha256": "24c0d794936c0d796f369d9a54cfd1197d15dda8e120c2234f9fbca9dc821433"
+      "bytes": 2463,
+      "sha256": "494bd16f0dd65a0c0533541fa3d1d424cff5c6dfe22f32af5d382c0e15bff12c"
     }
-  ]
+  ],
+  "packaging_revision": "synthetic-filenames-2026-11-13",
+  "previous_manifest_sha256": "ee7aacddfbe4b61e70220b062f483c15db50c8895a5999a28c6069908bbf47a3"
 }

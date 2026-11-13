@@ -54,3 +54,7 @@ python3 scripts/verify_public_pack.py
 - [Judicator logo](assets/ogs_or_judicator_logo.png)
 
 Both assets are included for this joint demonstration only. Trademark and ownership rights remain with their respective owners.
+
+## Public evidence filenames
+
+Public filenames use **Synthetic Pilot**. Historical private-pilot names inside recorded evidence and frozen archives are preserved for provenance. See the [filename migration record](docs/PUBLIC_FILENAME_RENAMES_2026-11-13.md) for the four old-to-new paths and byte-preservation checks.

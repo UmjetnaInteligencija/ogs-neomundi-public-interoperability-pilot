@@ -1,5 +1,5 @@
 {
-  "artifact_count": 37,
+  "artifact_count": 147,
   "branding_status": {
     "judicator": "canonical approved asset installed",
     "neomundi": "approved asset installed",
@@ -23,9 +23,9 @@
       "sha256": "63a286bea72ed1b947ab65c61e54a6fc8c059fbc9e64cc1cd4687da16a5e8327"
     },
     {
-      "bytes": 2134,
+      "bytes": 2453,
       "path": "README.md",
-      "sha256": "291881e333d4093da68d838229c9a5cd47ecac89a0626def88330a64d876023c"
+      "sha256": "557fc7c673f7e9d2ed30914e172262b2889e126d760829b77b94914bfc9f2c83"
     },
     {
       "bytes": 363,
@@ -68,6 +68,11 @@
       "sha256": "1813396780ebe1fcb415d7ddbc08499bdd34b504b20ca76b66fe9e25a199b906"
     },
     {
+      "bytes": 3254,
+      "path": "docs/CORRECTED_EVIDENCE_HANDOFF_2026-10-01.md",
+      "sha256": "9f0536cfee6d4645022e5088d49f09d10787561d2a0fd897657af2255cb56706"
+    },
+    {
       "bytes": 631,
       "path": "docs/EVIDENCE_SUMMARY.md",
       "sha256": "6fa056cc1cd7d948658ac50a79f0801b176651fba3a60e7389214f8de0feac6c"
@@ -86,6 +91,16 @@
       "bytes": 669,
       "path": "docs/OWNERSHIP_AND_ATTRIBUTION.md",
       "sha256": "d3922eb1f7abc21ae274700ace2586101d2f50256c81dc5434fb39e32b1d7108"
+    },
+    {
+      "bytes": 2328,
+      "path": "docs/PUBLIC_FILENAME_RENAMES_2026-11-13.json",
+      "sha256": "3e2122d9b209dc389fc471a42546b327330282ecc935118fb1f1429433162008"
+    },
+    {
+      "bytes": 1863,
+      "path": "docs/PUBLIC_FILENAME_RENAMES_2026-11-13.md",
+      "sha256": "4fe0e9cd8df627d038399c924cb04c371ae6d2b849b8f6be1f07756481293228"
     },
     {
       "bytes": 496,
@@ -126,6 +141,541 @@
       "bytes": 1993,
       "path": "evidence/VERIFIED_HASHES.json",
       "sha256": "06e0fd17d119c61011167e0d049486a71d6e1a755a268f8dfe68c7ec76f14b36"
+    },
+    {
+      "bytes": 2062,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/GITHUB_HANDOFF.md",
+      "sha256": "82d11edc356eb6a8f54471d43e940d81c952e1a3d5c941792095cd3ab9f6eb14"
+    },
+    {
+      "bytes": 19761,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/HANDOFF_MANIFEST.json",
+      "sha256": "51f13288ca9b17cd45be4866af8c73d0cd28421846bfcd86d6901693d302e041"
+    },
+    {
+      "bytes": 88,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/HANDOFF_MANIFEST.sha256",
+      "sha256": "e64f113ee605764d373d6e82cc3b5ec5ae579f6ee2542ceaa178a66b75ba01c6"
+    },
+    {
+      "bytes": 1168,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/NOTE_TO_SEBASTIAN.txt",
+      "sha256": "8a21643bddbb7e079a1ac125df864261971bb76a9537666386a651c63343c417"
+    },
+    {
+      "bytes": 1854,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/PUBLIC_RELEASE_REVIEW.md",
+      "sha256": "ab983fff4dcbc4b3e10b7fa9d38375b26bbb1285309c75cdda0e8fb6e2be44db"
+    },
+    {
+      "bytes": 3740,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/README.md",
+      "sha256": "d7486bd65bc706278f7439dbb4d9399d6bcebed44b766a6f1d5e45979747b723"
+    },
+    {
+      "bytes": 1162,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/HASH_CORRECTION_AND_REPLAY_MEMO.md",
+      "sha256": "f12816e1f856d2632e23bb00975075ccac40483ddef9171d62eb0cc9b7235a6c"
+    },
+    {
+      "bytes": 2719,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/MANIFEST.json",
+      "sha256": "6ca58766be364cac82d610a2deb34840aa4a71a0c8e8d486bc8a7530ac5c5368"
+    },
+    {
+      "bytes": 589,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/README.md",
+      "sha256": "b3a1b74cc72cbcf56a8d8f9ce931585ba7c5b4994cb798c2ad90c0d152a904ec"
+    },
+    {
+      "bytes": 6400,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/evidence/NEOMUNDI_OGS_CAOM_LITE_RECEIPT_BUNDLE_v0_1_1_CORRECTED.json",
+      "sha256": "a8087d13755d56fc05e790f5ca8464989fb256dea91251153d77357b0e03f233"
+    },
+    {
+      "bytes": 2298,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/evidence/NEOMUNDI_OGS_REPLAY_EXECUTION_RESULT_v0_1_1.json",
+      "sha256": "a94d4ce69d36baac79c243acc035ca16df6d253ce42859e5f0ba4158bc288bf8"
+    },
+    {
+      "bytes": 3465,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/evidence/NEOMUNDI_OGS_REPLAY_EXECUTION_TRANSCRIPT_v0_1_1.txt",
+      "sha256": "e68759043c09d60f70b165fe7cd257fef80b10460bc621c31c5bd919baf41164"
+    },
+    {
+      "bytes": 16517,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/evidence/NEOMUNDI_OGS_SYNTHETIC_PILOT_RESULTS_v0_1_1_CORRECTED.json",
+      "sha256": "e945985271fd4c5b93ae0bb24090d29cd26f9520d5f9e89d1fee5baf58bb1165"
+    },
+    {
+      "bytes": 2580,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/payloads/01_stable_but_fragile.json",
+      "sha256": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8"
+    },
+    {
+      "bytes": 2660,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/payloads/02_variable_and_uncertain.json",
+      "sha256": "76885176a856a3b02db158040dbe20ef5da24cc7175ce15f1a2cdfd5a86a46cc"
+    },
+    {
+      "bytes": 2595,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/payloads/03_supported_but_limited.json",
+      "sha256": "9db2daba4425805972a5b02d036949d39359b061a6a23aface871011722958bc"
+    },
+    {
+      "bytes": 2792,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/payloads/04_contradiction_or_overclaim.json",
+      "sha256": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75"
+    },
+    {
+      "bytes": 2774,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/payloads/05_partial_measurement.json",
+      "sha256": "7c83f569c61b08812a2226f921087af34346bd7a07a690d11ab15fc3a9d2c3ee"
+    },
+    {
+      "bytes": 1374,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/verification/mapping_rules_v0_1_1.json",
+      "sha256": "e1e619915506a00031cf1c62a754f406b14d30b2a2d5d929646f878e6adfe655"
+    },
+    {
+      "bytes": 2463,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/corrected_evidence/verification/verify_and_replay.py",
+      "sha256": "494bd16f0dd65a0c0533541fa3d1d424cff5c6dfe22f32af5d382c0e15bff12c"
+    },
+    {
+      "bytes": 0,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/corrected_replay.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2298,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/corrected_replay.stdout.txt",
+      "sha256": "a94d4ce69d36baac79c243acc035ca16df6d253ce42859e5f0ba4158bc288bf8"
+    },
+    {
+      "bytes": 2298,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/corrected_replay_result.json",
+      "sha256": "a94d4ce69d36baac79c243acc035ca16df6d253ce42859e5f0ba4158bc288bf8"
+    },
+    {
+      "bytes": 2555,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/execution_record.json",
+      "sha256": "f2cd68b3259b239d75f63b26a57b67c04c6543640259b4d61fee625afaa2d3eb"
+    },
+    {
+      "bytes": 1774,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/hash_binding_comparison.json",
+      "sha256": "54ad220299c13fd6e733fb65e4682c9f0678030b0a58cbe3b4b0a023a081a532"
+    },
+    {
+      "bytes": 0,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/repository_snapshot_integrity.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 266,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/fresh_verification/repository_snapshot_integrity.stdout.txt",
+      "sha256": "fa9add19d94962da59d074be5ba6a185ab9e2549fa133c3faae885fee36b1ec0"
+    },
+    {
+      "bytes": 5128,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/NEOMUNDI_OGS_CAOM_LITE_RECEIPT_BUNDLE_v0_1(4).json",
+      "sha256": "475ec43263038c9f27fd735ce62aa9c8fcf30e9bdb69dd7596ec348a92b20782"
+    },
+    {
+      "bytes": 723,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/NEOMUNDI_OGS_REPLAY_SUMMARY_v0_1(9).json",
+      "sha256": "df0b314313a4f78f0f70521f3408ae8f33c0fd5accd02f139f37f83a43eaaa7d"
+    },
+    {
+      "bytes": 3674,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/NEOMUNDI_OGS_SYNTHETIC_PILOT_EVIDENCE_NOTE_v0_1(5).md",
+      "sha256": "5a551e73258b0b5f6321cc29d0e2d00f27481bc191c6c7690399a0f26153369f"
+    },
+    {
+      "bytes": 2580,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/original_payloads/01_stable_but_fragile.json",
+      "sha256": "ab71da0fe464a4009a370457c865d797b18aaada78ba7d7f3fe096213cd88cc8"
+    },
+    {
+      "bytes": 2660,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/original_payloads/02_variable_and_uncertain.json",
+      "sha256": "76885176a856a3b02db158040dbe20ef5da24cc7175ce15f1a2cdfd5a86a46cc"
+    },
+    {
+      "bytes": 2595,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/original_payloads/03_supported_but_limited.json",
+      "sha256": "9db2daba4425805972a5b02d036949d39359b061a6a23aface871011722958bc"
+    },
+    {
+      "bytes": 2792,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/original_payloads/04_contradiction_or_overclaim.json",
+      "sha256": "9fe6ef4f63d23d97acc12affda35546722264fb4cdec4bbafad7dfe284145b75"
+    },
+    {
+      "bytes": 2774,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/historical/original_payloads/05_partial_measurement.json",
+      "sha256": "7c83f569c61b08812a2226f921087af34346bd7a07a690d11ab15fc3a9d2c3ee"
+    },
+    {
+      "bytes": 244,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/.github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "dfb41b1ed31ec6082914008d3f5ecd448a45653ba8147868d09d88cc6ebeb47d"
+    },
+    {
+      "bytes": 666,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/.github/pull_request_template.md",
+      "sha256": "a79b152d0fb7045d85703341c50a68602a95ba7a2d5f7db084f65b8a25a5abf4"
+    },
+    {
+      "bytes": 434,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/.github/workflows/validate.yml",
+      "sha256": "8f492cd3b2c67ad868b8d9e848e65bbf8081d7b4191ec98cd75e07f5612ce516"
+    },
+    {
+      "bytes": 294,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/.gitignore",
+      "sha256": "9bce7daa68376f16d4d6fa45e8884bd5c5b133ae9cecd28c56f0795afbbb7388"
+    },
+    {
+      "bytes": 1316,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/CHANGELOG.md",
+      "sha256": "dc9007aacc4bd753e1f5ec7a5411250044f44afa121bd389eccfbe18f1afa935"
+    },
+    {
+      "bytes": 888,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/CITATION.cff",
+      "sha256": "3c1218606a949d5bf03a15e65f749749ea9aefe280f91fab22c71f16591470b3"
+    },
+    {
+      "bytes": 667,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/CONTRIBUTING.md",
+      "sha256": "ba3e1c79977019586a4353187f9172c98a50cb22e0b83c106d1a92d03430ab8d"
+    },
+    {
+      "bytes": 4961,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/GITHUB_UPLOAD_GUIDE.md",
+      "sha256": "2e8c68c9ae337a27718c30c161455843da945c7fa0ca0be6dee85f1d18233e46"
+    },
+    {
+      "bytes": 1316,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/LICENSE.md",
+      "sha256": "b031a43bdeb654f599b2f5959475065b084ed44a329df2c731b3b29493f71357"
+    },
+    {
+      "bytes": 12180,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/MANIFEST.json",
+      "sha256": "8b67ae77ef1c58e1dcabda9e94e9306c7d7f38ff85dbd83fbd34ed954d95ea9e"
+    },
+    {
+      "bytes": 80,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/MANIFEST.sha256",
+      "sha256": "26304f97015bd13954d13cdc1760dda4743e0544f554b1b184010b00886b1ce0"
+    },
+    {
+      "bytes": 953,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/NOTICE.md",
+      "sha256": "ebd21f9c57cb6cfcd848e7c9bbb305e80e75df7a7a9a18e0df9d591a83b098fa"
+    },
+    {
+      "bytes": 4545,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/README.md",
+      "sha256": "914cd583df0e41766c548178f382e4e390b15ab100fcbbd4415db0999151b43a"
+    },
+    {
+      "bytes": 1481,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/RELEASE_NOTES_v1.1.0-rc.1.md",
+      "sha256": "4e64e3ceaad8658bb450bad3fbd1d6b931d3579f1d7ae7c857d58f2f18268b57"
+    },
+    {
+      "bytes": 714,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/SECURITY.md",
+      "sha256": "1611e981651b2e2a09bea0f080d3655ee286552b4ef3b81d979f58c84fb81f96"
+    },
+    {
+      "bytes": 1411,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/START_HERE.md",
+      "sha256": "45f5148ed125406483f654c418977f762da3e97a63ba5408ca53fd2b2466ae07"
+    },
+    {
+      "bytes": 2877,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/TREE.txt",
+      "sha256": "802570e8f9950702cc56ca73ecaa1bc77623d1e90be7dfdac0cd0a1b0f5c788c"
+    },
+    {
+      "bytes": 560,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/VALIDATION_TRANSCRIPT.txt",
+      "sha256": "c3bc7965faa8f3dc89ea27ef3ded89c32f1ed5c8a982db1f2575988c5001c839"
+    },
+    {
+      "bytes": 2633,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/diagrams/ogs_neomundi_architecture.dot",
+      "sha256": "04475148c6c5c6607ffd6f1179aaa7df1c3b0bd058a81801e5d9d87a952dd845"
+    },
+    {
+      "bytes": 1150,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/diagrams/ogs_neomundi_architecture.mmd",
+      "sha256": "22f03bc7356d42f521326a0bc38a6c8dd16a9807f09dca69ba708f226b88d95b"
+    },
+    {
+      "bytes": 270193,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/diagrams/ogs_neomundi_architecture.png",
+      "sha256": "561cd8caa7545fc058c035eee6b60a9e5065ef30865248a2c35cbe28abe65695"
+    },
+    {
+      "bytes": 14464,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/diagrams/ogs_neomundi_architecture.svg",
+      "sha256": "4146cb8443eede1b1472d229eccb1f0203fe30d8afc30b27c1edcf96605fff6e"
+    },
+    {
+      "bytes": 2197,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/APPROVAL_CHECKLIST.md",
+      "sha256": "cd1c865717fa1ed8e4365778806792fcd6b2e973444c7c7025d57abf49a6f23f"
+    },
+    {
+      "bytes": 2536,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/ARCHITECTURE.md",
+      "sha256": "66511afe481ba0704f3f5ee39d4eaf6e7380639256fde4d4bcd8ddad565b66cf"
+    },
+    {
+      "bytes": 1634,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/ATTRIBUTION_AND_IP.md",
+      "sha256": "499ba1b17c1f9ae77b29648943ea46647ce77b50a1d7c1854362651018e5afc8"
+    },
+    {
+      "bytes": 782,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/AUTHORS_AND_ACKNOWLEDGMENTS.md",
+      "sha256": "3450db159543dd9a2e36a88d4c1ab642bacfa48499b4daf33d272d769c85fe33"
+    },
+    {
+      "bytes": 688,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/CITATION.md",
+      "sha256": "e6979c523b015edf24dd6fb682eba559db80a2f44e54174a8bbe7566599f6c88"
+    },
+    {
+      "bytes": 1884,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/EVIDENCE_REGISTER.md",
+      "sha256": "1ec964293a4e7b332960c32fbae480b5386e29c1a2fc78c9e76546129af797cf"
+    },
+    {
+      "bytes": 1247,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/JOINT_CONCLUSION_DRAFT.md",
+      "sha256": "cc79de5a69f1d813bf7cbb213af850e6d278797bc3a6aab0ac2788110e8f6d3a"
+    },
+    {
+      "bytes": 1768,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/LIMITATIONS.md",
+      "sha256": "280e78dfe068c7300950df0d80ea0963e6ea672994f9135887a1e9f46216a1df"
+    },
+    {
+      "bytes": 2089,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/METHOD.md",
+      "sha256": "398931c0b598ea11f6c31e5140f1db478242e5e67049d7da293916cf39667cfc"
+    },
+    {
+      "bytes": 1592,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/OBJECT_FLOW.md",
+      "sha256": "336783a0b17b10753d552c451b740d748e112cb3d7d7f797aef8a58e7edd01aa"
+    },
+    {
+      "bytes": 1854,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/PUBLICATION_GATE.md",
+      "sha256": "3ffe782cc25d8bd8c722dc823c7d3a3d57516dfe62f8bfa779ee9f525d3940f4"
+    },
+    {
+      "bytes": 2939,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/PUBLIC_CLAIM_BOUNDARY.md",
+      "sha256": "e84945cd6e901491abd77a93d8e1c76c02f03e55dab749427ab346ea04990bac"
+    },
+    {
+      "bytes": 1351,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/PUBLIC_DISCLOSURE_BOUNDARY.md",
+      "sha256": "9190eb8b4c12cb0e32ce39a7bd1140950460db58960ca6451c5cc0e6c7c8d407"
+    },
+    {
+      "bytes": 4320,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/PUBLIC_PILOT_SPEC_CONSOLIDATED.md",
+      "sha256": "1b905f0805f8549b52168ed0fa271d3f748c710a6616e42613e1ae2ab4488cf5"
+    },
+    {
+      "bytes": 1027,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/REPOSITORY_METADATA.md",
+      "sha256": "1acf5f77583acddce25271302ddbd9cd86fed16c87536af755facd6f0d2d8e44"
+    },
+    {
+      "bytes": 1695,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/REPRODUCIBILITY.md",
+      "sha256": "78dfb3571864000aee4154f46bb528e9910a8fe4bd6c190c0cfa49d742c20518"
+    },
+    {
+      "bytes": 2430,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/RESULTS_AND_EVIDENCE.md",
+      "sha256": "626f7363105da9a21e27cf568993074413ba64e5be28761c9d4a7b32c6bc4b66"
+    },
+    {
+      "bytes": 983,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/ROADMAP.md",
+      "sha256": "088dd8c49bed32b9d1bb7c8614941c40716b6a2bbb2ce07b56dc703e37015e6b"
+    },
+    {
+      "bytes": 1280,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/SELECTED_EXAMPLE.md",
+      "sha256": "a462198900d088699cffd9efc4a820fa52ac27436974667fce626a7391c3b8c0"
+    },
+    {
+      "bytes": 1780,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/docs/USE_CASE.md",
+      "sha256": "4c9ffa9c6bbfa4a8caf1451e40085f165f54c3fd5b692e3338b4363388486e6f"
+    },
+    {
+      "bytes": 1149,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/evidence/CORRECTED_EVIDENCE_PACK_REFERENCE.md",
+      "sha256": "78cdc3c287cba3b737190916401181f4dbc2bfb808d17e901727c683478ecc83"
+    },
+    {
+      "bytes": 890,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/evidence/EVIDENCE_CLASSIFICATION.md",
+      "sha256": "c45b773cfc6595d468fb42735876fadc0be34294b8080228fd77356d3619bc66"
+    },
+    {
+      "bytes": 1089,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/evidence/HISTORICAL_V0_1_DISCLOSURE.md",
+      "sha256": "53d3b995be092b206ef6f838f7045ceb51d81601f72c9977cda2c160925dfb5b"
+    },
+    {
+      "bytes": 1560,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/evidence/OGS_NEOMUNDI_PILOT_EVIDENCE_REGISTER_v1_1_CORRECTION_UPDATE.md",
+      "sha256": "5dbc6e4236cbba13387efdf0b4dc3422d4fbe9e4f9959208c48fde9e651b81aa"
+    },
+    {
+      "bytes": 423,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/evidence/PRIOR_PACKAGE_REFERENCE.md",
+      "sha256": "78ff9b826f6ead6c6f08811097dcf369a98763d3ea7f63c1bea216522377adb0"
+    },
+    {
+      "bytes": 737,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/extras/FINAL_RELEASE_SEQUENCE.md",
+      "sha256": "d284abb0b63e7e7d0eb7d578e75324b6d5519d4723b91238375dcfc21a38dd01"
+    },
+    {
+      "bytes": 1052,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/extras/GITHUB_PROFILE_README_DRAFT.md",
+      "sha256": "bffdf9f9e38ecfde067b40c4a856cbf95e894804d9fb768f9bb7f741756a3eac"
+    },
+    {
+      "bytes": 1153,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/extras/GITHUB_RELEASE_DESCRIPTION.md",
+      "sha256": "cc4104181b9505b62098d6b68fa2da1b83c83615eb726de44cf1e1197d54c573"
+    },
+    {
+      "bytes": 1292,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/extras/LINKEDIN_LAUNCH_POST_DRAFT.md",
+      "sha256": "e13b3da13a7127202872842e096414e19f7498e8809122c80bd80dc7b43b867c"
+    },
+    {
+      "bytes": 1363,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/extras/NEOMUNDI_APPROVAL_REQUEST.md",
+      "sha256": "89351625c8d6a42db7f9712f4f4ff797480fc8b70e7edb197bbb4cd9c36cc78d"
+    },
+    {
+      "bytes": 198,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/extras/REPOSITORY_ABOUT_TEXT.txt",
+      "sha256": "78040f823ba49a411125acd5a11d4a3611ab9f133884c2d123d47c19bb3aeac0"
+    },
+    {
+      "bytes": 581,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/README.md",
+      "sha256": "176b9e191c1455479c2f7088ae9b40b643264dbe103db35cad217cf7f2e2dd15"
+    },
+    {
+      "bytes": 1009,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_limited_use/governance_receipt.json",
+      "sha256": "a4ed1e05926a55ecb8a23d2882a5a79993ac4eea9187849446a0b877adba0b62"
+    },
+    {
+      "bytes": 1378,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_limited_use/neomundi_signal.json",
+      "sha256": "a22963945c3e70e20ee922b8e7de57d6e06b61e3e0038e99d8015aa8bd6bd8f3"
+    },
+    {
+      "bytes": 1357,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_limited_use/ogs_governance_object.json",
+      "sha256": "1e6901b4da0ec7e9b3b4083bfe5690eda1dbd96d7de1da6cf67a50b916adb792"
+    },
+    {
+      "bytes": 1223,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_limited_use/replay_record.json",
+      "sha256": "90dd0dc5901ccf08b4a4b83936f2f368cd805c22ee04b4689270ec8dbe14249d"
+    },
+    {
+      "bytes": 1005,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_no_bind/governance_receipt.json",
+      "sha256": "87df0be3c39ca2915dc19df1ada8d15cef4b3527b883eb3b418e873b9c152245"
+    },
+    {
+      "bytes": 1382,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_no_bind/neomundi_signal.json",
+      "sha256": "d45f9a3afab41defa45963a41fb9713cda4de9901c98254adf6c8398ebc66827"
+    },
+    {
+      "bytes": 1352,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_no_bind/ogs_governance_object.json",
+      "sha256": "1263ecdc95d6b75ae8eec7ec01264e4d75579588e8dc82508c4a0e4780f1609f"
+    },
+    {
+      "bytes": 1215,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/sample_objects/trajectory_no_bind/replay_record.json",
+      "sha256": "03aa76f601d1f1d83ab8b524529213d2de05add521cb3a836fff9c63b3cb93bf"
+    },
+    {
+      "bytes": 378,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/schemas/README.md",
+      "sha256": "1575154302cd642048d2ef1c639467e3373e85c2d040af7a3f14f7c14c8b4355"
+    },
+    {
+      "bytes": 1881,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/schemas/governance_receipt.schema.json",
+      "sha256": "a44fbbbe86b28c10fd20582137e6e3ba735bf8efecedaa274010155c8e969dc0"
+    },
+    {
+      "bytes": 2552,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/schemas/neomundi_signal.schema.json",
+      "sha256": "e93af745ad3667f4c9fc137b85171490e6f828de7d4052bf183a2f6f30ef5766"
+    },
+    {
+      "bytes": 2193,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/schemas/ogs_governance_object.schema.json",
+      "sha256": "cef25f1f4b66e165f46349f3107de1d6b5880cd603bb640594b8c55459ffe9a9"
+    },
+    {
+      "bytes": 2102,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/schemas/replay_record.schema.json",
+      "sha256": "7f9ca801eb2f320e3ed7c1072a6c8d2bcc717b98bc05c77c30b77b7bbaf594fa"
+    },
+    {
+      "bytes": 7634,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/repository_snapshot/scripts/verify_repository.py",
+      "sha256": "cf312bdeb4637891b8377de9d3815a09388122c05c395b98f112df0a517a7703"
+    },
+    {
+      "bytes": 17045,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/source_archives/NEOMUNDI_OGS_SYNTHETIC_PILOT_v0_1_1_CORRECTED_EVIDENCE_PACK.zip",
+      "sha256": "6e5f5f24f29f9612ac53a48cac41dfbc48c435fcd21b34b6f5a938d4a482fdc6"
+    },
+    {
+      "bytes": 4492,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/source_archives/NeoMundi_OGS_Synthetic_Pilot_v0.1_Payloads.zip",
+      "sha256": "0e72ab5216b39d443e12e0ddabb0fb0e92bc9e8ece826b1c9dbeb58c33b9d9c1"
+    },
+    {
+      "bytes": 319165,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/source_archives/neomundi-ogs-interoperability-pilot-v1.1.0-rc.1.zip",
+      "sha256": "8bf3794a444ae719d7c678ec784c06dc523147329a2ddb97ab44480fda54bb6d"
+    },
+    {
+      "bytes": 3037,
+      "path": "evidence/neomundi-corrected-replay-2026-10-01/verify_handoff.py",
+      "sha256": "78f482c9dcc4063ea4213ae15be4d81816dc1bb5db25fd043e497a0e09fb9dbb"
     },
     {
       "bytes": 1820,
@@ -194,6 +744,9 @@
     }
   ],
   "hash_algorithm": "SHA-256",
+  "manifest_scope": "Current repository files excluding this manifest",
+  "packaging_revision": "synthetic-filenames-2026-11-13",
+  "previous_manifest_sha256": "8062aa978d004494db374e6a00b341fd948019f0a347e0b65fe6bcf343fa908f",
   "repository": "ogs-neomundi-public-interoperability-pilot",
   "version": "1.0.2-final"
 }
