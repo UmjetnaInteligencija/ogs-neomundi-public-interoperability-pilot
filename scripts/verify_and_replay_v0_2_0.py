@@ -18,7 +18,7 @@ if output == HISTORICAL or HISTORICAL in output.parents:
 if output.exists():
     parser.error("output already exists; choose a new path")
 payload_dir=ROOT/"payloads"
-results=json.loads((ROOT/"evidence"/"NEOMUNDI_OGS_PRIVATE_PILOT_RESULTS_v0_1_1_CORRECTED.json").read_text(encoding="utf-8-sig"))
+results=json.loads((ROOT/"evidence"/"NEOMUNDI_OGS_SYNTHETIC_PILOT_RESULTS_v0_1_1_CORRECTED.json").read_text(encoding="utf-8-sig"))
 receipts=json.loads((ROOT/"evidence"/"NEOMUNDI_OGS_CAOM_LITE_RECEIPT_BUNDLE_v0_1_1_CORRECTED.json").read_text(encoding="utf-8-sig"))
 result_by_file={x["file"]:x for x in results["results"]}
 receipt_by_file={x["source_file"]:x for x in receipts["receipts"]}

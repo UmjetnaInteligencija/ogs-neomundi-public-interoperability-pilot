@@ -141,7 +141,7 @@ class ReplayByteStability(unittest.TestCase):
                 self.assertEqual(output.read_bytes(), self.preserved)
 
     def test_07_each_classification_mismatch_is_rejected(self):
-        path = self.repo / FIXTURE / "evidence/NEOMUNDI_OGS_PRIVATE_PILOT_RESULTS_v0_1_1_CORRECTED.json"
+        path = self.repo / FIXTURE / "evidence/NEOMUNDI_OGS_SYNTHETIC_PILOT_RESULTS_v0_1_1_CORRECTED.json"
         original = self.read_json(path)
         for index in range(5):
             with self.subTest(case=index + 1):
@@ -212,7 +212,7 @@ class ReplayByteStability(unittest.TestCase):
         self.assertEqual(classification(REPO / OLD), classification(REPO / NEW))
 
     def test_15_utf8_input_under_ascii_locale(self):
-        path = self.repo / FIXTURE / "evidence/NEOMUNDI_OGS_PRIVATE_PILOT_RESULTS_v0_1_1_CORRECTED.json"
+        path = self.repo / FIXTURE / "evidence/NEOMUNDI_OGS_SYNTHETIC_PILOT_RESULTS_v0_1_1_CORRECTED.json"
         value = self.read_json(path)
         value["run_id"] = "UTF8-é-č-Ω-漢字"
         path.write_bytes((json.dumps(value, ensure_ascii=False) + "\n").encode("utf-8"))
