@@ -31,17 +31,23 @@ class RootManifestIntegrity(unittest.TestCase):
         result = self.run_verifier()
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
-    def test_same_size_corruption_of_every_listed_file_fails(self):
+    def test_corruption_of_every_listed_file_fails(self):
         for entry in self.entries:
             with self.subTest(path=entry["path"]):
                 p = self.root / entry["path"]
                 original = p.read_bytes()
                 try:
-                    p.write_bytes(bytes([original[0] ^ 1]) + original[1:])
+                    if original:
+                        p.write_bytes(bytes([original[0] ^ 1]) + original[1:])
+                    else:
+                        p.write_bytes(b"\x01")
                     result = self.run_verifier()
                     self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
                     self.assertIn(entry["path"] + ": SHA-256 mismatch", result.stderr)
-                    self.assertNotIn("byte count mismatch", result.stderr)
+                    if original:
+                        self.assertNotIn("byte count mismatch", result.stderr)
+                    else:
+                        self.assertIn(entry["path"] + ": byte count mismatch", result.stderr)
                 finally:
                     p.write_bytes(original)
 

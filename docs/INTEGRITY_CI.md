@@ -10,20 +10,21 @@ The workflow grants only `contents: read`, disables persisted checkout credentia
 pins both actions by commit and uses Python 3.12 on Ubuntu 24.04. Assertions remain
 enabled because the preserved handoff verifier relies on them.
 
-1. `root_sample_pack_consistency` checks the preserved manifest checksum, all 37
+1. `root_sample_pack_consistency` checks the pinned November 13 root manifest checksum, all 147
    entries' SHA-256 hashes and byte counts, then runs the unchanged public-pack
    verifier. The manifest pin prevents entry removal or coordinated edits from
-   silently redefining this historical baseline. Additions are permitted outside
-   its historical inventory; the original manifest must not be regenerated.
+   silently redefining the reviewed inventory. Additive PR files are outside
+   the pinned inventory. An intentional manifest revision requires review of
+   the new inventory and a corresponding update to the pin and entry count.
 2. `preserved_corrected_handoff_replay` runs the unchanged handoff verifier. Its
    107-file package comprises 105 listed artifacts plus the manifest and checksum.
    The verifier checks inventory, hashes and sizes, five original/corrected payload
    pairs, payload-to-receipt bindings, and five-case replay in a temporary copy.
    The fresh replay must equal the preserved recorded result as parsed JSON.
 
-Each job also runs its own negative tests. Root tests flip one byte in every one
-of the 37 listed files without changing size, append bytes, remove a file and
-remove a manifest entry. Handoff tests corrupt payload, receipts and an archive;
+Each job also runs its own negative tests. Root tests flip one byte in each
+nonempty listed file, add a byte to each empty listed file, append bytes to
+README.md, remove a file, and remove a manifest entry. Handoff tests corrupt payload, receipts and an archive;
 remove/add inventory entries; corrupt the manifest checksum; and repair outer
 checksums in disposable copies to test rejection of an incorrect receipt binding
 and incorrect recorded replay. Pristine controls must pass. All mutations occur
@@ -55,7 +56,7 @@ This workflow does not make checks mandatory for merging. Repository maintainers
 must separately configure required status checks or rulesets if desired. Both
 jobs must be required to enforce both scopes. A future edit to the workflow or
 verifier can change the gate and still requires review. Additional files outside
-the two preserved inventories are not automatically admitted as evidence.
+the two checked inventories are not automatically admitted as evidence.
 
 The handoff verifier's historical inventory exclusions and checksum behavior are
 preserved, not strengthened here. This is regression coverage, not a security

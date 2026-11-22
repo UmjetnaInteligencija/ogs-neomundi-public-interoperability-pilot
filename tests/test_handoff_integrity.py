@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 HANDOFF = ROOT / "evidence/neomundi-corrected-replay-2026-10-01"
 PAYLOAD = "corrected_evidence/payloads/01_stable_but_fragile.json"
 RECEIPTS = "corrected_evidence/evidence/NEOMUNDI_OGS_CAOM_LITE_RECEIPT_BUNDLE_v0_1_1_CORRECTED.json"
-ARCHIVE = "source_archives/NeoMundi_OGS_Private_Pilot_v0.1_Synthetic_Payloads.zip"
+ARCHIVE = "source_archives/NeoMundi_OGS_Synthetic_Pilot_v0.1_Payloads.zip"
 
 
 class HandoffIntegrity(unittest.TestCase):
