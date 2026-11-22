@@ -15,7 +15,7 @@ def main():
     assert (ROOT / 'HANDOFF_MANIFEST.sha256').read_text().split()[0] == sha(ROOT / 'HANDOFF_MANIFEST.json'), 'Manifest checksum'
     c = ROOT / 'corrected_evidence'
     original = ROOT / 'historical/original_payloads'
-    results = json.loads((c / 'evidence/NEOMUNDI_OGS_PRIVATE_PILOT_RESULTS_v0_1_1_CORRECTED.json').read_text())['results']
+    results = json.loads((c / 'evidence/NEOMUNDI_OGS_SYNTHETIC_PILOT_RESULTS_v0_1_1_CORRECTED.json').read_text())['results']
     receipts = json.loads((c / 'evidence/NEOMUNDI_OGS_CAOM_LITE_RECEIPT_BUNDLE_v0_1_1_CORRECTED.json').read_text())['receipts']
     names = sorted(p.name for p in (c / 'payloads').glob('*.json'))
     assert len(names) == len(results) == len(receipts) == 5, 'Must contain all five preserved cases'
